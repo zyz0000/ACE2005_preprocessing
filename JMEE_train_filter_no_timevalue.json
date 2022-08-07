@@ -1,0 +1,5490 @@
+[
+  {
+    "sentence": "OT Best organization for donation",
+    "golden-entity-mentions": [
+      {
+        "text": "OT Best organization for donation",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "organization",
+          "start": 2,
+          "end": 3
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E4-136",
+        "start": 0,
+        "end": 5
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=0/gov=-1",
+      "amod/dep=1/gov=2",
+      "dep/dep=2/gov=0",
+      "case/dep=3/gov=4",
+      "nmod:for/dep=4/gov=2"
+    ],
+    "words": [
+      "OT",
+      "Best",
+      "organization",
+      "for",
+      "donation"
+    ],
+    "pos-tags": [
+      "NNP",
+      "JJS",
+      "NN",
+      "IN",
+      "NN"
+    ],
+    "parse": "(ROOT\r\n  (NP\r\n    (NP (NNP OT))\r\n    (NP\r\n      (NP (JJS Best) (NN organization))\r\n      (PP (IN for)\r\n        (NP (NN donation))))))"
+  },
+  {
+    "sentence": "I would like to make a donation to help the survivors of the tsunami.",
+    "golden-entity-mentions": [
+      {
+        "text": "I",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "I",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E24-1",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "the survivors of the tsunami",
+        "entity-type": "PER:Group",
+        "head": {
+          "text": "survivors",
+          "start": 10,
+          "end": 11
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E50-75",
+        "start": 9,
+        "end": 14
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "donation",
+          "start": 6,
+          "end": 7
+        },
+        "arguments": [
+          {
+            "role": "Giver",
+            "entity-type": "PER:Individual",
+            "text": "I",
+            "start": 0,
+            "end": 1
+          },
+          {
+            "role": "Beneficiary",
+            "entity-type": "PER:Group",
+            "text": "the survivors of the tsunami",
+            "start": 9,
+            "end": 14
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=2/gov=-1",
+      "nsubj/dep=0/gov=2",
+      "nsubj:xsubj/dep=0/gov=4",
+      "aux/dep=1/gov=2",
+      "mark/dep=3/gov=4",
+      "xcomp/dep=4/gov=2",
+      "det/dep=5/gov=6",
+      "dobj/dep=6/gov=4",
+      "mark/dep=7/gov=8",
+      "acl:to/dep=8/gov=6",
+      "det/dep=9/gov=10",
+      "dobj/dep=10/gov=8",
+      "case/dep=11/gov=13",
+      "det/dep=12/gov=13",
+      "nmod:of/dep=13/gov=10",
+      "punct/dep=14/gov=2"
+    ],
+    "words": [
+      "I",
+      "would",
+      "like",
+      "to",
+      "make",
+      "a",
+      "donation",
+      "to",
+      "help",
+      "the",
+      "survivors",
+      "of",
+      "the",
+      "tsunami",
+      "."
+    ],
+    "pos-tags": [
+      "PRP",
+      "MD",
+      "VB",
+      "TO",
+      "VB",
+      "DT",
+      "NN",
+      "TO",
+      "VB",
+      "DT",
+      "NNS",
+      "IN",
+      "DT",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (PRP I))\r\n    (VP (MD would)\r\n      (VP (VB like)\r\n        (S\r\n          (VP (TO to)\r\n            (VP (VB make)\r\n              (NP (DT a) (NN donation)\r\n                (S\r\n                  (VP (TO to)\r\n                    (VP (VB help)\r\n                      (NP\r\n                        (NP (DT the) (NNS survivors))\r\n                        (PP (IN of)\r\n                          (NP (DT the) (NN tsunami)))))))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "I have a lot of skepticism with the Red Cross and a few others based on horror stories I have heard reported in the media.",
+    "golden-entity-mentions": [
+      {
+        "text": "I",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "I",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E24-130",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "I",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "I",
+          "start": 18,
+          "end": 19
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E24-133",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "text": "the Red Cross",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Red Cross",
+          "start": 8,
+          "end": 10
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-131",
+        "start": 7,
+        "end": 10
+      },
+      {
+        "text": "a few others",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "others",
+          "start": 13,
+          "end": 14
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E52-132",
+        "start": 11,
+        "end": 14
+      },
+      {
+        "text": "the media",
+        "entity-type": "ORG:Media",
+        "head": {
+          "text": "media",
+          "start": 24,
+          "end": 25
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E53-134",
+        "start": 23,
+        "end": 25
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=20/gov=-1",
+      "nsubj/dep=0/gov=1",
+      "dep/dep=1/gov=20",
+      "det:qmod/dep=2/gov=5",
+      "mwe/dep=3/gov=2",
+      "mwe/dep=4/gov=2",
+      "dobj/dep=5/gov=1",
+      "case/dep=6/gov=9",
+      "det/dep=7/gov=9",
+      "compound/dep=8/gov=9",
+      "nmod:with/dep=9/gov=1",
+      "cc/dep=10/gov=9",
+      "det/dep=11/gov=13",
+      "amod/dep=12/gov=13",
+      "nmod:with/dep=13/gov=1",
+      "conj:and/dep=13/gov=9",
+      "acl/dep=14/gov=13",
+      "case/dep=15/gov=17",
+      "compound/dep=16/gov=17",
+      "nmod:on/dep=17/gov=14",
+      "nsubj/dep=18/gov=20",
+      "aux/dep=19/gov=20",
+      "advmod/dep=21/gov=20",
+      "case/dep=22/gov=24",
+      "det/dep=23/gov=24",
+      "nmod:in/dep=24/gov=21",
+      "punct/dep=25/gov=20"
+    ],
+    "words": [
+      "I",
+      "have",
+      "a",
+      "lot",
+      "of",
+      "skepticism",
+      "with",
+      "the",
+      "Red",
+      "Cross",
+      "and",
+      "a",
+      "few",
+      "others",
+      "based",
+      "on",
+      "horror",
+      "stories",
+      "I",
+      "have",
+      "heard",
+      "reported",
+      "in",
+      "the",
+      "media",
+      "."
+    ],
+    "pos-tags": [
+      "PRP",
+      "VBP",
+      "DT",
+      "NN",
+      "IN",
+      "NN",
+      "IN",
+      "DT",
+      "NNP",
+      "NNP",
+      "CC",
+      "DT",
+      "JJ",
+      "NNS",
+      "VBN",
+      "IN",
+      "NN",
+      "NNS",
+      "PRP",
+      "VBP",
+      "VBN",
+      "VBN",
+      "IN",
+      "DT",
+      "NNS",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (S\r\n      (NP (PRP I))\r\n      (VP (VBP have)\r\n        (NP\r\n          (NP (DT a) (NN lot))\r\n          (PP (IN of)\r\n            (NP (NN skepticism))))\r\n        (PP (IN with)\r\n          (NP (DT the)\r\n            (NX\r\n              (NX (NNP Red) (NNP Cross))\r\n              (CC and)\r\n              (NX\r\n                (NP (DT a) (JJ few) (NNS others))\r\n                (VP (VBN based)\r\n                  (PP (IN on)\r\n                    (NP (NN horror) (NNS stories))))))))))\r\n    (NP (PRP I))\r\n    (VP (VBP have)\r\n      (VP (VBN heard)\r\n        (ADVP (VBN reported)\r\n          (PP (IN in)\r\n            (NP (DT the) (NNS media))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Because of this I have always shied away from these national organizations and stuck with local groups.",
+    "golden-entity-mentions": [
+      {
+        "text": "I",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "I",
+          "start": 3,
+          "end": 4
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E24-135",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "text": "these national organizations",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "organizations",
+          "start": 11,
+          "end": 12
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E54-137",
+        "start": 9,
+        "end": 12
+      },
+      {
+        "text": "local groups",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "groups",
+          "start": 16,
+          "end": 17
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E55-138",
+        "start": 15,
+        "end": 17
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=6/gov=-1",
+      "case/dep=0/gov=2",
+      "case/dep=1/gov=2",
+      "nmod:of/dep=2/gov=6",
+      "nsubj/dep=3/gov=6",
+      "nsubj/dep=3/gov=13",
+      "aux/dep=4/gov=6",
+      "advmod/dep=5/gov=6",
+      "advmod/dep=7/gov=6",
+      "case/dep=8/gov=11",
+      "det/dep=9/gov=11",
+      "amod/dep=10/gov=11",
+      "nmod:from/dep=11/gov=6",
+      "cc/dep=12/gov=6",
+      "conj:and/dep=13/gov=6",
+      "case/dep=14/gov=16",
+      "amod/dep=15/gov=16",
+      "nmod:with/dep=16/gov=13",
+      "punct/dep=17/gov=6"
+    ],
+    "words": [
+      "Because",
+      "of",
+      "this",
+      "I",
+      "have",
+      "always",
+      "shied",
+      "away",
+      "from",
+      "these",
+      "national",
+      "organizations",
+      "and",
+      "stuck",
+      "with",
+      "local",
+      "groups",
+      "."
+    ],
+    "pos-tags": [
+      "IN",
+      "IN",
+      "DT",
+      "PRP",
+      "VBP",
+      "RB",
+      "VBN",
+      "RB",
+      "IN",
+      "DT",
+      "JJ",
+      "NNS",
+      "CC",
+      "VBN",
+      "IN",
+      "JJ",
+      "NNS",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (PP (IN Because)\r\n      (PP (IN of)\r\n        (NP (DT this))))\r\n    (NP (PRP I))\r\n    (VP (VBP have)\r\n      (ADVP (RB always))\r\n      (VP\r\n        (VP (VBN shied)\r\n          (ADVP (RB away))\r\n          (PP (IN from)\r\n            (NP (DT these) (JJ national) (NNS organizations))))\r\n        (CC and)\r\n        (VP (VBN stuck)\r\n          (PP (IN with)\r\n            (NP (JJ local) (NNS groups))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Any thoughts as to where my money would go the furthest.",
+    "golden-entity-mentions": [
+      {
+        "text": "my",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "my",
+          "start": 5,
+          "end": 6
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E24-140",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "text": "where my money would go the furthest",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "where",
+          "start": 4,
+          "end": 5
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E56-139",
+        "start": 4,
+        "end": 11
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=1/gov=-1",
+      "det/dep=0/gov=1",
+      "mark/dep=2/gov=8",
+      "mwe/dep=3/gov=2",
+      "advmod/dep=4/gov=8",
+      "nmod:poss/dep=5/gov=6",
+      "nsubj/dep=6/gov=8",
+      "aux/dep=7/gov=8",
+      "acl:as_to/dep=8/gov=1",
+      "det/dep=9/gov=10",
+      "dobj/dep=10/gov=8",
+      "punct/dep=11/gov=1"
+    ],
+    "words": [
+      "Any",
+      "thoughts",
+      "as",
+      "to",
+      "where",
+      "my",
+      "money",
+      "would",
+      "go",
+      "the",
+      "furthest",
+      "."
+    ],
+    "pos-tags": [
+      "DT",
+      "NNS",
+      "IN",
+      "TO",
+      "WRB",
+      "PRP$",
+      "NN",
+      "MD",
+      "VB",
+      "DT",
+      "JJS",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (NP\r\n    (NP (DT Any) (NNS thoughts))\r\n    (PP (IN as) (TO to)\r\n      (SBAR\r\n        (WHADVP (WRB where))\r\n        (S\r\n          (NP (PRP$ my) (NN money))\r\n          (VP (MD would)\r\n            (VP (VB go)\r\n              (NP (DT the) (JJS furthest)))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Appreciate any input.",
+    "golden-entity-mentions": [],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=0/gov=-1",
+      "det/dep=1/gov=2",
+      "dobj/dep=2/gov=0",
+      "punct/dep=3/gov=0"
+    ],
+    "words": [
+      "Appreciate",
+      "any",
+      "input",
+      "."
+    ],
+    "pos-tags": [
+      "VB",
+      "DT",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (VP (VB Appreciate)\r\n      (NP (DT any) (NN input)))\r\n    (. .)))"
+  },
+  {
+    "sentence": "I've heard mostly positive things about how the Red Cross is handling their donations, with a very high percentage of the donated funds going directly for relief and not for administrative expenses.",
+    "golden-entity-mentions": [
+      {
+        "text": "the Red Cross",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Red Cross",
+          "start": 9,
+          "end": 11
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-142",
+        "start": 8,
+        "end": 11
+      },
+      {
+        "text": "their",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "their",
+          "start": 13,
+          "end": 14
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-143",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "text": "I",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "I",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E57-141",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "percentage",
+        "entity-type": "Numeric:Percent",
+        "head": {
+          "text": "percentage",
+          "start": 20,
+          "end": 21
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V2-1",
+        "start": 20,
+        "end": 21
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "donations",
+          "start": 14,
+          "end": 15
+        },
+        "arguments": [
+          {
+            "role": "Recipient",
+            "entity-type": "ORG:Non-Governmental",
+            "text": "the Red Cross",
+            "start": 8,
+            "end": 11
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=2/gov=-1",
+      "nsubj/dep=0/gov=2",
+      "nsubj/dep=0/gov=2",
+      "nsubj/dep=0/gov=2",
+      "aux/dep=1/gov=2",
+      "conj:and/dep=2/gov=2",
+      "conj:and/dep=2/gov=2",
+      "advmod/dep=3/gov=4",
+      "amod/dep=4/gov=5",
+      "dobj/dep=5/gov=2",
+      "case/dep=6/gov=12",
+      "advmod/dep=7/gov=12",
+      "det/dep=8/gov=10",
+      "compound/dep=9/gov=10",
+      "nsubj/dep=10/gov=12",
+      "aux/dep=11/gov=12",
+      "advcl:about/dep=12/gov=2",
+      "nmod:poss/dep=13/gov=14",
+      "dobj/dep=14/gov=12",
+      "punct/dep=15/gov=12",
+      "case/dep=16/gov=20",
+      "det/dep=17/gov=20",
+      "advmod/dep=18/gov=19",
+      "amod/dep=19/gov=20",
+      "advcl:with/dep=20/gov=2",
+      "case/dep=21/gov=24",
+      "det/dep=22/gov=24",
+      "amod/dep=23/gov=24",
+      "nmod:of/dep=24/gov=20",
+      "acl/dep=25/gov=24",
+      "advmod/dep=26/gov=25",
+      "case/dep=27/gov=28",
+      "nmod:for/dep=28/gov=25",
+      "cc/dep=29/gov=2",
+      "neg/dep=30/gov=33",
+      "case/dep=31/gov=33",
+      "amod/dep=32/gov=33",
+      "advcl:for/dep=33/gov=2",
+      "punct/dep=34/gov=2"
+    ],
+    "words": [
+      "I",
+      "'ve",
+      "heard",
+      "mostly",
+      "positive",
+      "things",
+      "about",
+      "how",
+      "the",
+      "Red",
+      "Cross",
+      "is",
+      "handling",
+      "their",
+      "donations",
+      ",",
+      "with",
+      "a",
+      "very",
+      "high",
+      "percentage",
+      "of",
+      "the",
+      "donated",
+      "funds",
+      "going",
+      "directly",
+      "for",
+      "relief",
+      "and",
+      "not",
+      "for",
+      "administrative",
+      "expenses",
+      "."
+    ],
+    "pos-tags": [
+      "PRP",
+      "VBP",
+      "VBN",
+      "RB",
+      "JJ",
+      "NNS",
+      "IN",
+      "WRB",
+      "DT",
+      "NNP",
+      "NNP",
+      "VBZ",
+      "VBG",
+      "PRP$",
+      "NNS",
+      ",",
+      "IN",
+      "DT",
+      "RB",
+      "JJ",
+      "NN",
+      "IN",
+      "DT",
+      "VBN",
+      "NNS",
+      "VBG",
+      "RB",
+      "IN",
+      "NN",
+      "CC",
+      "RB",
+      "IN",
+      "JJ",
+      "NNS",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (PRP I))\r\n    (VP (VBP 've)\r\n      (VP (VBN heard)\r\n        (NP\r\n          (ADJP (RB mostly) (JJ positive))\r\n          (NNS things))\r\n        (PP (IN about)\r\n          (UCP\r\n            (SBAR\r\n              (WHADVP (WRB how))\r\n              (S\r\n                (NP (DT the) (NNP Red) (NNP Cross))\r\n                (VP (VBZ is)\r\n                  (VP (VBG handling)\r\n                    (NP (PRP$ their) (NNS donations))))))\r\n            (, ,)\r\n            (PP (IN with)\r\n              (NP\r\n                (NP (DT a)\r\n                  (ADJP (RB very) (JJ high))\r\n                  (NN percentage))\r\n                (PP (IN of)\r\n                  (NP\r\n                    (NP (DT the) (VBN donated) (NNS funds))\r\n                    (VP (VBG going)\r\n                      (ADVP (RB directly))\r\n                      (PP (IN for)\r\n                        (NP (NN relief))))))))\r\n            (CC and)\r\n            (PP (RB not) (IN for)\r\n              (NP (JJ administrative) (NNS expenses)))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "So that is the channel we chose for our own donation.",
+    "golden-entity-mentions": [
+      {
+        "text": "that",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "that",
+          "start": 1,
+          "end": 2
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-144",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "text": "the channel",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "channel",
+          "start": 4,
+          "end": 5
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-145",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "text": "own",
+        "entity-type": "PER:Group",
+        "head": {
+          "text": "own",
+          "start": 9,
+          "end": 10
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E59-2",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "text": "we",
+        "entity-type": "PER:Group",
+        "head": {
+          "text": "we",
+          "start": 5,
+          "end": 6
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E59-146",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "text": "our own",
+        "entity-type": "PER:Group",
+        "head": {
+          "text": "our",
+          "start": 8,
+          "end": 9
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E59-147",
+        "start": 8,
+        "end": 10
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "donation",
+          "start": 10,
+          "end": 11
+        },
+        "arguments": [
+          {
+            "role": "Giver",
+            "entity-type": "PER:Group",
+            "text": "we",
+            "start": 5,
+            "end": 6
+          },
+          {
+            "role": "Recipient",
+            "entity-type": "ORG:Non-Governmental",
+            "text": "the channel",
+            "start": 3,
+            "end": 5
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=4/gov=-1",
+      "dep/dep=0/gov=4",
+      "nsubj/dep=1/gov=4",
+      "cop/dep=2/gov=4",
+      "det/dep=3/gov=4",
+      "nsubj/dep=5/gov=6",
+      "acl:relcl/dep=6/gov=4",
+      "case/dep=7/gov=10",
+      "nmod:poss/dep=8/gov=10",
+      "amod/dep=9/gov=10",
+      "nmod:for/dep=10/gov=6",
+      "punct/dep=11/gov=4"
+    ],
+    "words": [
+      "So",
+      "that",
+      "is",
+      "the",
+      "channel",
+      "we",
+      "chose",
+      "for",
+      "our",
+      "own",
+      "donation",
+      "."
+    ],
+    "pos-tags": [
+      "IN",
+      "DT",
+      "VBZ",
+      "DT",
+      "NN",
+      "PRP",
+      "VBD",
+      "IN",
+      "PRP$",
+      "JJ",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S (IN So)\r\n    (NP (DT that))\r\n    (VP (VBZ is)\r\n      (NP\r\n        (NP (DT the) (NN channel))\r\n        (SBAR\r\n          (S\r\n            (NP (PRP we))\r\n            (VP (VBD chose)\r\n              (PP (IN for)\r\n                (NP (PRP$ our) (JJ own) (NN donation))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "For what it's worth to you, here's some contact information for a few agencies that seem to be highly regarded.",
+    "golden-entity-mentions": [
+      {
+        "text": "a few agencies that seem to be highly regarded",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "agencies",
+          "start": 16,
+          "end": 17
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E1-4",
+        "start": 14,
+        "end": 23
+      },
+      {
+        "text": "that",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "that",
+          "start": 17,
+          "end": 18
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E1-5",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "text": "you",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "you",
+          "start": 6,
+          "end": 7
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E24-3",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=12/gov=-1",
+      "mark/dep=0/gov=4",
+      "dobj/dep=1/gov=4",
+      "nsubj/dep=2/gov=4",
+      "cop/dep=3/gov=4",
+      "advcl:for/dep=4/gov=12",
+      "case/dep=5/gov=6",
+      "nmod:to/dep=6/gov=4",
+      "punct/dep=7/gov=12",
+      "nsubj/dep=8/gov=12",
+      "cop/dep=9/gov=12",
+      "det/dep=10/gov=12",
+      "compound/dep=11/gov=12",
+      "case/dep=13/gov=16",
+      "det/dep=14/gov=16",
+      "amod/dep=15/gov=16",
+      "nmod:for/dep=16/gov=12",
+      "nsubj/dep=16/gov=18",
+      "nsubjpass:xsubj/dep=16/gov=22",
+      "ref/dep=17/gov=16",
+      "acl:relcl/dep=18/gov=16",
+      "mark/dep=19/gov=22",
+      "auxpass/dep=20/gov=22",
+      "advmod/dep=21/gov=22",
+      "xcomp/dep=22/gov=18",
+      "punct/dep=23/gov=12"
+    ],
+    "words": [
+      "For",
+      "what",
+      "it",
+      "'s",
+      "worth",
+      "to",
+      "you",
+      ",",
+      "here",
+      "'s",
+      "some",
+      "contact",
+      "information",
+      "for",
+      "a",
+      "few",
+      "agencies",
+      "that",
+      "seem",
+      "to",
+      "be",
+      "highly",
+      "regarded",
+      "."
+    ],
+    "pos-tags": [
+      "IN",
+      "WP",
+      "PRP",
+      "VBZ",
+      "JJ",
+      "TO",
+      "PRP",
+      ",",
+      "RB",
+      "VBZ",
+      "DT",
+      "NN",
+      "NN",
+      "IN",
+      "DT",
+      "JJ",
+      "NNS",
+      "WDT",
+      "VBP",
+      "TO",
+      "VB",
+      "RB",
+      "VBN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (PP (IN For)\r\n      (SBAR\r\n        (WHNP (WP what))\r\n        (S\r\n          (NP (PRP it))\r\n          (VP (VBZ 's)\r\n            (ADJP (JJ worth)\r\n              (PP (TO to)\r\n                (NP (PRP you))))))))\r\n    (, ,)\r\n    (NP (RB here))\r\n    (VP (VBZ 's)\r\n      (NP\r\n        (NP (DT some) (NN contact) (NN information))\r\n        (PP (IN for)\r\n          (NP\r\n            (NP (DT a) (JJ few) (NNS agencies))\r\n            (SBAR\r\n              (WHNP (WDT that))\r\n              (S\r\n                (VP (VBP seem)\r\n                  (S\r\n                    (VP (TO to)\r\n                      (VP (VB be)\r\n                        (ADJP (RB highly) (VBN regarded))))))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "The Habitat for Humanity might be a good one to consider, since their expertise is in building housing, which of course is so beadly needed over there at this time:",
+    "golden-entity-mentions": [
+      {
+        "text": "The Habitat for Humanity",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Habitat for Humanity",
+          "start": 1,
+          "end": 4
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E2-6",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "a good one to consider",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "one",
+          "start": 8,
+          "end": 9
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E2-7",
+        "start": 6,
+        "end": 11
+      },
+      {
+        "text": "their",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "their",
+          "start": 13,
+          "end": 14
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E2-8",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "text": "housing, which of course is so beadly needed over there at this time",
+        "entity-type": "FAC:Building-Grounds",
+        "head": {
+          "text": "housing",
+          "start": 18,
+          "end": 19
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E5-9",
+        "start": 18,
+        "end": 32
+      },
+      {
+        "text": "which",
+        "entity-type": "FAC:Building-Grounds",
+        "head": {
+          "text": "which",
+          "start": 20,
+          "end": 21
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E5-10",
+        "start": 20,
+        "end": 21
+      },
+      {
+        "text": "there",
+        "entity-type": "LOC:Region-General",
+        "head": {
+          "text": "there",
+          "start": 28,
+          "end": 29
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E6-11",
+        "start": 28,
+        "end": 29
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=8/gov=-1",
+      "det/dep=0/gov=1",
+      "nsubj/dep=1/gov=8",
+      "case/dep=2/gov=3",
+      "nmod:for/dep=3/gov=1",
+      "aux/dep=4/gov=8",
+      "cop/dep=5/gov=8",
+      "det/dep=6/gov=8",
+      "amod/dep=7/gov=8",
+      "mark/dep=9/gov=10",
+      "advcl:to/dep=10/gov=8",
+      "punct/dep=11/gov=8",
+      "mark/dep=12/gov=18",
+      "nmod:poss/dep=13/gov=14",
+      "nsubj/dep=14/gov=18",
+      "cop/dep=15/gov=18",
+      "case/dep=16/gov=18",
+      "amod/dep=17/gov=18",
+      "advcl:since/dep=18/gov=8",
+      "nsubj/dep=18/gov=26",
+      "punct/dep=19/gov=18",
+      "ref/dep=20/gov=18",
+      "case/dep=21/gov=22",
+      "nmod:of/dep=22/gov=26",
+      "cop/dep=23/gov=26",
+      "advmod/dep=24/gov=26",
+      "advmod/dep=25/gov=26",
+      "acl:relcl/dep=26/gov=18",
+      "case/dep=27/gov=28",
+      "nmod:over/dep=28/gov=26",
+      "case/dep=29/gov=31",
+      "det/dep=30/gov=31",
+      "nmod:at/dep=31/gov=26",
+      "punct/dep=32/gov=8"
+    ],
+    "words": [
+      "The",
+      "Habitat",
+      "for",
+      "Humanity",
+      "might",
+      "be",
+      "a",
+      "good",
+      "one",
+      "to",
+      "consider",
+      ",",
+      "since",
+      "their",
+      "expertise",
+      "is",
+      "in",
+      "building",
+      "housing",
+      ",",
+      "which",
+      "of",
+      "course",
+      "is",
+      "so",
+      "beadly",
+      "needed",
+      "over",
+      "there",
+      "at",
+      "this",
+      "time",
+      ":"
+    ],
+    "pos-tags": [
+      "DT",
+      "NN",
+      "IN",
+      "NN",
+      "MD",
+      "VB",
+      "DT",
+      "JJ",
+      "CD",
+      "TO",
+      "VB",
+      ",",
+      "IN",
+      "PRP$",
+      "NN",
+      "VBZ",
+      "IN",
+      "VBG",
+      "NN",
+      ",",
+      "WDT",
+      "IN",
+      "NN",
+      "VBZ",
+      "RB",
+      "RB",
+      "VBN",
+      "IN",
+      "EX",
+      "IN",
+      "DT",
+      "NN",
+      ":"
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP\r\n      (NP (DT The) (NN Habitat))\r\n      (PP (IN for)\r\n        (NP (NN Humanity))))\r\n    (VP (MD might)\r\n      (VP (VB be)\r\n        (NP (DT a) (JJ good) (CD one))\r\n        (S\r\n          (VP (TO to)\r\n            (VP (VB consider))))\r\n        (, ,)\r\n        (SBAR (IN since)\r\n          (S\r\n            (NP (PRP$ their) (NN expertise))\r\n            (VP (VBZ is)\r\n              (PP (IN in)\r\n                (NP\r\n                  (NP (VBG building) (NN housing))\r\n                  (, ,)\r\n                  (SBAR\r\n                    (WHNP (WDT which))\r\n                    (S\r\n                      (PP (IN of)\r\n                        (NP (NN course)))\r\n                      (VP (VBZ is)\r\n                        (ADJP\r\n                          (ADJP (RB so) (RB beadly) (VBN needed)\r\n                            (PP (IN over)\r\n                              (NP (EX there))))\r\n                          (PP (IN at)\r\n                            (NP (DT this) (NN time))))))))))))))\r\n    (: :)))"
+  },
+  {
+    "sentence": "American Red Cross: Disaster Relief Fund, P.O.",
+    "golden-entity-mentions": [
+      {
+        "text": "American Red Cross",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "American Red Cross",
+          "start": 0,
+          "end": 3
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-12",
+        "start": 0,
+        "end": 3
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=2/gov=-1",
+      "compound/dep=0/gov=2",
+      "compound/dep=1/gov=2",
+      "punct/dep=3/gov=2",
+      "compound/dep=4/gov=6",
+      "compound/dep=5/gov=6",
+      "dep/dep=6/gov=2",
+      "punct/dep=7/gov=6",
+      "appos/dep=8/gov=6"
+    ],
+    "words": [
+      "American",
+      "Red",
+      "Cross",
+      ":",
+      "Disaster",
+      "Relief",
+      "Fund",
+      ",",
+      "P.O."
+    ],
+    "pos-tags": [
+      "NNP",
+      "NNP",
+      "NNP",
+      ":",
+      "NN",
+      "NNP",
+      "NNP",
+      ",",
+      "NNP"
+    ],
+    "parse": "(ROOT\r\n  (NP\r\n    (NP (NNP American) (NNP Red) (NNP Cross))\r\n    (: :)\r\n    (NP\r\n      (NP (NN Disaster) (NNP Relief) (NNP Fund))\r\n      (, ,)\r\n      (NP (NNP P.O.)))))"
+  },
+  {
+    "sentence": "Box 37243, Washington, DC 20013.",
+    "golden-entity-mentions": [
+      {
+        "text": "Washington, DC",
+        "entity-type": "GPE:Population-Center",
+        "head": {
+          "text": "Washington",
+          "start": 3,
+          "end": 4
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E7-15",
+        "start": 3,
+        "end": 6
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=0/gov=-1",
+      "nummod/dep=1/gov=0",
+      "punct/dep=2/gov=0",
+      "compound/dep=3/gov=5",
+      "punct/dep=4/gov=5",
+      "appos/dep=5/gov=0",
+      "nummod/dep=6/gov=5",
+      "punct/dep=7/gov=0"
+    ],
+    "words": [
+      "Box",
+      "37243",
+      ",",
+      "Washington",
+      ",",
+      "DC",
+      "20013",
+      "."
+    ],
+    "pos-tags": [
+      "NNP",
+      "CD",
+      ",",
+      "NNP",
+      ",",
+      "NNP",
+      "CD",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (NP\r\n    (NP (NNP Box) (CD 37243))\r\n    (, ,)\r\n    (NP (NNP Washington) (, ,) (NNP DC) (CD 20013))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Phone: (800) 435-7669",
+    "golden-entity-mentions": [
+      {
+        "text": "800) 435-7669",
+        "entity-type": "Contact-Info:Phone-Number",
+        "head": {
+          "text": "800) 435-7669",
+          "start": 2,
+          "end": 3
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V1-1",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=0/gov=-1",
+      "punct/dep=1/gov=0",
+      "dep/dep=2/gov=0"
+    ],
+    "words": [
+      "Phone",
+      ":",
+      "-LRB-800-RRB-\u00a0435-7669"
+    ],
+    "pos-tags": [
+      "NN",
+      ":",
+      "NN"
+    ],
+    "parse": "(ROOT\r\n  (NP\r\n    (NP (NN Phone))\r\n    (: :)\r\n    (NP (NN -LRB-800-RRB-\u00a0435-7669))))"
+  },
+  {
+    "sentence": "Habitat for Humanity International: Asia Tsunami Response Fund, 121 Habitat St., Americus, GA 31709-3498.",
+    "golden-entity-mentions": [
+      {
+        "text": "Habitat for Humanity International",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Habitat for Humanity International",
+          "start": 0,
+          "end": 4
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E2-17",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "text": "Americus, GA",
+        "entity-type": "GPE:Population-Center",
+        "head": {
+          "text": "Americus",
+          "start": 14,
+          "end": 15
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E9-18",
+        "start": 14,
+        "end": 17
+      },
+      {
+        "text": "GA",
+        "entity-type": "GPE:State-or-Province",
+        "head": {
+          "text": "GA",
+          "start": 16,
+          "end": 17
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E10-19",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "text": "Habitat St",
+        "entity-type": "FAC:Path",
+        "head": {
+          "text": "Habitat St",
+          "start": 11,
+          "end": 13
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E11-20",
+        "start": 11,
+        "end": 13
+      },
+      {
+        "text": "121 Habitat St., Americus, GA 31709-3498",
+        "entity-type": "LOC:Address",
+        "head": {
+          "text": "121",
+          "start": 10,
+          "end": 11
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E12-21",
+        "start": 10,
+        "end": 18
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=0/gov=-1",
+      "case/dep=1/gov=3",
+      "compound/dep=2/gov=3",
+      "nmod:for/dep=3/gov=0",
+      "punct/dep=4/gov=0",
+      "compound/dep=5/gov=8",
+      "compound/dep=6/gov=8",
+      "compound/dep=7/gov=8",
+      "dep/dep=8/gov=0",
+      "punct/dep=9/gov=8",
+      "nummod/dep=10/gov=11",
+      "appos/dep=11/gov=8",
+      "compound/dep=12/gov=16",
+      "punct/dep=13/gov=16",
+      "appos/dep=14/gov=16",
+      "punct/dep=15/gov=16",
+      "dep/dep=16/gov=11",
+      "nummod/dep=17/gov=16",
+      "punct/dep=18/gov=0"
+    ],
+    "words": [
+      "Habitat",
+      "for",
+      "Humanity",
+      "International",
+      ":",
+      "Asia",
+      "Tsunami",
+      "Response",
+      "Fund",
+      ",",
+      "121",
+      "Habitat",
+      "St.",
+      ",",
+      "Americus",
+      ",",
+      "GA",
+      "31709-3498",
+      "."
+    ],
+    "pos-tags": [
+      "NN",
+      "IN",
+      "NNP",
+      "NNP",
+      ":",
+      "NNP",
+      "NNP",
+      "NNP",
+      "NNP",
+      ",",
+      "CD",
+      "NN",
+      "NNP",
+      ",",
+      "NNP",
+      ",",
+      "NNP",
+      "CD",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (NP\r\n    (NP\r\n      (NP (NN Habitat))\r\n      (PP (IN for)\r\n        (NP (NNP Humanity) (NNP International))))\r\n    (: :)\r\n    (NP\r\n      (NP (NNP Asia) (NNP Tsunami) (NNP Response) (NNP Fund))\r\n      (, ,)\r\n      (NP\r\n        (NP (CD 121) (NN Habitat))\r\n        (NP (NNP St.) (, ,) (NNP Americus) (, ,) (NNP GA) (CD 31709-3498))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Phone: (800) 422-4828",
+    "golden-entity-mentions": [
+      {
+        "text": "800) 422-4828",
+        "entity-type": "Contact-Info:Phone-Number",
+        "head": {
+          "text": "800) 422-4828",
+          "start": 2,
+          "end": 3
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V3-1",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=0/gov=-1",
+      "punct/dep=1/gov=0",
+      "dep/dep=2/gov=0"
+    ],
+    "words": [
+      "Phone",
+      ":",
+      "-LRB-800-RRB-\u00a0422-4828"
+    ],
+    "pos-tags": [
+      "NN",
+      ":",
+      "NN"
+    ],
+    "parse": "(ROOT\r\n  (NP\r\n    (NP (NN Phone))\r\n    (: :)\r\n    (NP (NN -LRB-800-RRB-\u00a0422-4828))))"
+  },
+  {
+    "sentence": "Save the Children: Attn: Asian Earthquake/Tsunami Relief Fund, 54 Wilton Road, Westport, CT 06880.",
+    "golden-entity-mentions": [
+      {
+        "text": "Save the Children",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Save the Children",
+          "start": 0,
+          "end": 3
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E14-23",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "54 Wilton Road, Westport, CT 06880",
+        "entity-type": "LOC:Address",
+        "head": {
+          "text": "54",
+          "start": 11,
+          "end": 12
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E15-24",
+        "start": 11,
+        "end": 19
+      },
+      {
+        "text": "Wilton Road",
+        "entity-type": "FAC:Path",
+        "head": {
+          "text": "Wilton Road",
+          "start": 12,
+          "end": 14
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E16-25",
+        "start": 12,
+        "end": 14
+      },
+      {
+        "text": "Westport, CT",
+        "entity-type": "GPE:Population-Center",
+        "head": {
+          "text": "Westport",
+          "start": 15,
+          "end": 16
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E17-26",
+        "start": 15,
+        "end": 18
+      },
+      {
+        "text": "CT",
+        "entity-type": "GPE:State-or-Province",
+        "head": {
+          "text": "CT",
+          "start": 17,
+          "end": 18
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E18-27",
+        "start": 17,
+        "end": 18
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=9/gov=-1",
+      "dep/dep=0/gov=9",
+      "det/dep=1/gov=2",
+      "dobj/dep=2/gov=0",
+      "punct/dep=3/gov=2",
+      "dep/dep=4/gov=2",
+      "punct/dep=5/gov=9",
+      "compound/dep=6/gov=9",
+      "compound/dep=7/gov=9",
+      "compound/dep=8/gov=9",
+      "punct/dep=10/gov=9",
+      "nummod/dep=11/gov=13",
+      "compound/dep=12/gov=13",
+      "appos/dep=13/gov=9",
+      "punct/dep=14/gov=9",
+      "appos/dep=15/gov=9",
+      "punct/dep=16/gov=15",
+      "appos/dep=17/gov=15",
+      "nummod/dep=18/gov=17",
+      "punct/dep=19/gov=9"
+    ],
+    "words": [
+      "Save",
+      "the",
+      "Children",
+      ":",
+      "Attn",
+      ":",
+      "Asian",
+      "Earthquake/Tsunami",
+      "Relief",
+      "Fund",
+      ",",
+      "54",
+      "Wilton",
+      "Road",
+      ",",
+      "Westport",
+      ",",
+      "CT",
+      "06880",
+      "."
+    ],
+    "pos-tags": [
+      "VB",
+      "DT",
+      "NNP",
+      ":",
+      "VB",
+      ":",
+      "NNP",
+      "NNP",
+      "NNP",
+      "NNP",
+      ",",
+      "CD",
+      "NNP",
+      "NNP",
+      ",",
+      "NNP",
+      ",",
+      "NNP",
+      "CD",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (FRAG\r\n    (S\r\n      (VP (VB Save)\r\n        (NP\r\n          (NP (DT the) (NNP Children))\r\n          (: :)\r\n          (VP (VB Attn)))))\r\n    (: :)\r\n    (NP\r\n      (NP (NNP Asian) (NNP Earthquake/Tsunami) (NNP Relief) (NNP Fund))\r\n      (, ,)\r\n      (NP (CD 54) (NNP Wilton) (NNP Road))\r\n      (, ,)\r\n      (NP\r\n        (NP (NNP Westport))\r\n        (, ,)\r\n        (NP (NNP CT) (CD 06880))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Phone: (800) 728-3843",
+    "golden-entity-mentions": [
+      {
+        "text": "800) 728-3843",
+        "entity-type": "Contact-Info:Phone-Number",
+        "head": {
+          "text": "800) 728-3843",
+          "start": 2,
+          "end": 3
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V4-1",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=0/gov=-1",
+      "punct/dep=1/gov=0",
+      "dep/dep=2/gov=0"
+    ],
+    "words": [
+      "Phone",
+      ":",
+      "-LRB-800-RRB-\u00a0728-3843"
+    ],
+    "pos-tags": [
+      "NN",
+      ":",
+      "NN"
+    ],
+    "parse": "(ROOT\r\n  (NP\r\n    (NP (NN Phone))\r\n    (: :)\r\n    (NP (NN -LRB-800-RRB-\u00a0728-3843))))"
+  },
+  {
+    "sentence": "The Salvation Army: P.O.",
+    "golden-entity-mentions": [
+      {
+        "text": "The Salvation Army",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Salvation Army",
+          "start": 1,
+          "end": 3
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E19-28",
+        "start": 0,
+        "end": 3
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=2/gov=-1",
+      "det/dep=0/gov=2",
+      "compound/dep=1/gov=2",
+      "punct/dep=3/gov=2",
+      "dep/dep=4/gov=2"
+    ],
+    "words": [
+      "The",
+      "Salvation",
+      "Army",
+      ":",
+      "P.O."
+    ],
+    "pos-tags": [
+      "DT",
+      "NNP",
+      "NNP",
+      ":",
+      "NN"
+    ],
+    "parse": "(ROOT\r\n  (NP\r\n    (NP (DT The)\r\n      (NX (NNP Salvation) (NNP Army)))\r\n    (: :)\r\n    (NP (NN P.O.))))"
+  },
+  {
+    "sentence": "Box 269, Alexandria, VA 22313.",
+    "golden-entity-mentions": [
+      {
+        "text": "Alexandria, VA",
+        "entity-type": "GPE:Population-Center",
+        "head": {
+          "text": "Alexandria",
+          "start": 3,
+          "end": 4
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E20-29",
+        "start": 3,
+        "end": 6
+      },
+      {
+        "text": "VA",
+        "entity-type": "GPE:State-or-Province",
+        "head": {
+          "text": "VA",
+          "start": 5,
+          "end": 6
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E21-30",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=0/gov=-1",
+      "nummod/dep=1/gov=0",
+      "punct/dep=2/gov=0",
+      "compound/dep=3/gov=5",
+      "punct/dep=4/gov=5",
+      "appos/dep=5/gov=0",
+      "nummod/dep=6/gov=5",
+      "punct/dep=7/gov=0"
+    ],
+    "words": [
+      "Box",
+      "269",
+      ",",
+      "Alexandria",
+      ",",
+      "VA",
+      "22313",
+      "."
+    ],
+    "pos-tags": [
+      "NNP",
+      "CD",
+      ",",
+      "NNP",
+      ",",
+      "NNP",
+      "CD",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (NP\r\n    (NP (NNP Box) (CD 269))\r\n    (, ,)\r\n    (NP (NNP Alexandria) (, ,) (NNP VA) (CD 22313))\r\n    (. .)))"
+  },
+  {
+    "sentence": "(800) 725-2763.",
+    "golden-entity-mentions": [
+      {
+        "text": "800) 725-2763",
+        "entity-type": "Contact-Info:Phone-Number",
+        "head": {
+          "text": "800) 725-2763",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V5-1",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=0/gov=-1",
+      "punct/dep=1/gov=0"
+    ],
+    "words": [
+      "-LRB-800-RRB-\u00a0725-2763",
+      "."
+    ],
+    "pos-tags": [
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (NP (NN -LRB-800-RRB-\u00a0725-2763) (. .)))"
+  },
+  {
+    "sentence": "--Best from David in NV",
+    "golden-entity-mentions": [
+      {
+        "text": "NV",
+        "entity-type": "GPE:State-or-Province",
+        "head": {
+          "text": "NV",
+          "start": 5,
+          "end": 6
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E22-32",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "text": "David in NV",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "David",
+          "start": 3,
+          "end": 4
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E57-31",
+        "start": 3,
+        "end": 6
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=1/gov=-1",
+      "punct/dep=0/gov=1",
+      "case/dep=2/gov=3",
+      "nmod:from/dep=3/gov=1",
+      "case/dep=4/gov=5",
+      "dep/dep=5/gov=1"
+    ],
+    "words": [
+      "--",
+      "Best",
+      "from",
+      "David",
+      "in",
+      "NV"
+    ],
+    "pos-tags": [
+      ":",
+      "JJS",
+      "IN",
+      "NNP",
+      "IN",
+      "NNP"
+    ],
+    "parse": "(ROOT\r\n  (PRN (: --)\r\n    (S\r\n      (NP\r\n        (NP (JJS Best))\r\n        (PP (IN from)\r\n          (NP (NNP David))))\r\n      (PP (IN in)\r\n        (NP (NNP NV))))))"
+  },
+  {
+    "sentence": "Actually more of the money from your donation has a chance of going directly toward its intended purpose than any other charity.",
+    "golden-entity-mentions": [
+      {
+        "text": "any other charity",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "charity",
+          "start": 21,
+          "end": 22
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E23-34",
+        "start": 19,
+        "end": 22
+      },
+      {
+        "text": "your",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "your",
+          "start": 6,
+          "end": 7
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E24-33",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "donation",
+          "start": 7,
+          "end": 8
+        },
+        "arguments": [
+          {
+            "role": "Giver",
+            "entity-type": "PER:Individual",
+            "text": "your",
+            "start": 6,
+            "end": 7
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=8/gov=-1",
+      "advmod/dep=0/gov=8",
+      "nsubj/dep=1/gov=8",
+      "case/dep=2/gov=4",
+      "det/dep=3/gov=4",
+      "nmod:of/dep=4/gov=1",
+      "case/dep=5/gov=7",
+      "nmod:poss/dep=6/gov=7",
+      "nmod:from/dep=7/gov=4",
+      "det/dep=9/gov=10",
+      "dobj/dep=10/gov=8",
+      "mark/dep=11/gov=12",
+      "acl:of/dep=12/gov=10",
+      "advmod/dep=13/gov=12",
+      "case/dep=14/gov=17",
+      "nmod:poss/dep=15/gov=17",
+      "amod/dep=16/gov=17",
+      "nmod:toward/dep=17/gov=12",
+      "case/dep=18/gov=21",
+      "det/dep=19/gov=21",
+      "amod/dep=20/gov=21",
+      "nmod:than/dep=21/gov=17",
+      "punct/dep=22/gov=8"
+    ],
+    "words": [
+      "Actually",
+      "more",
+      "of",
+      "the",
+      "money",
+      "from",
+      "your",
+      "donation",
+      "has",
+      "a",
+      "chance",
+      "of",
+      "going",
+      "directly",
+      "toward",
+      "its",
+      "intended",
+      "purpose",
+      "than",
+      "any",
+      "other",
+      "charity",
+      "."
+    ],
+    "pos-tags": [
+      "RB",
+      "JJR",
+      "IN",
+      "DT",
+      "NN",
+      "IN",
+      "PRP$",
+      "NN",
+      "VBZ",
+      "DT",
+      "NN",
+      "IN",
+      "VBG",
+      "RB",
+      "IN",
+      "PRP$",
+      "JJ",
+      "NN",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (ADVP (RB Actually))\r\n    (NP\r\n      (NP (JJR more))\r\n      (PP (IN of)\r\n        (NP\r\n          (NP (DT the) (NN money))\r\n          (PP (IN from)\r\n            (NP (PRP$ your) (NN donation))))))\r\n    (VP (VBZ has)\r\n      (NP\r\n        (NP (DT a) (NN chance))\r\n        (PP (IN of)\r\n          (S\r\n            (VP (VBG going)\r\n              (ADVP (RB directly))\r\n              (PP (IN toward)\r\n                (NP\r\n                  (NP (PRP$ its) (JJ intended) (NN purpose))\r\n                  (PP (IN than)\r\n                    (NP (DT any) (JJ other) (NN charity))))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "The Red Cross normally deducts 9# from all deductions for its administratice costs.",
+    "golden-entity-mentions": [
+      {
+        "text": "The Red Cross",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Red Cross",
+          "start": 1,
+          "end": 3
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-35",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "its",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "its",
+          "start": 11,
+          "end": 12
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-36",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "text": "9#",
+        "entity-type": "Numeric:Percent",
+        "head": {
+          "text": "9#",
+          "start": 5,
+          "end": 6
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V6-1",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "deductions",
+          "start": 9,
+          "end": 10
+        },
+        "arguments": [
+          {
+            "role": "Recipient",
+            "entity-type": "ORG:Non-Governmental",
+            "text": "The Red Cross",
+            "start": 0,
+            "end": 3
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=4/gov=-1",
+      "det/dep=0/gov=2",
+      "compound/dep=1/gov=2",
+      "nsubj/dep=2/gov=4",
+      "advmod/dep=3/gov=4",
+      "dobj/dep=5/gov=4",
+      "dep/dep=6/gov=5",
+      "case/dep=7/gov=9",
+      "det/dep=8/gov=9",
+      "nmod:from/dep=9/gov=4",
+      "case/dep=10/gov=13",
+      "nmod:poss/dep=11/gov=13",
+      "compound/dep=12/gov=13",
+      "nmod:for/dep=13/gov=9",
+      "punct/dep=14/gov=4"
+    ],
+    "words": [
+      "The",
+      "Red",
+      "Cross",
+      "normally",
+      "deducts",
+      "9",
+      "#",
+      "from",
+      "all",
+      "deductions",
+      "for",
+      "its",
+      "administratice",
+      "costs",
+      "."
+    ],
+    "pos-tags": [
+      "DT",
+      "NNP",
+      "NNP",
+      "RB",
+      "VBZ",
+      "CD",
+      "#",
+      "IN",
+      "DT",
+      "NNS",
+      "IN",
+      "PRP$",
+      "NN",
+      "NNS",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (DT The) (NNP Red) (NNP Cross))\r\n    (ADVP (RB normally))\r\n    (VP (VBZ deducts)\r\n      (NP (CD 9) (# #))\r\n      (PP (IN from)\r\n        (NP\r\n          (NP (DT all) (NNS deductions))\r\n          (PP (IN for)\r\n            (NP (PRP$ its) (NN administratice) (NNS costs))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "It has announced that it will forego the 9# on donations earmarked for tsunami relief and that 100# of these funds will go directly toward aid.",
+    "golden-entity-mentions": [
+      {
+        "text": "It",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "It",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-37",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "it",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "it",
+          "start": 4,
+          "end": 5
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-38",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "text": "9#",
+        "entity-type": "Numeric:Percent",
+        "head": {
+          "text": "9#",
+          "start": 8,
+          "end": 9
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V7-1",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "text": "100#",
+        "entity-type": "Numeric:Percent",
+        "head": {
+          "text": "100#",
+          "start": 18,
+          "end": 19
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V8-1",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "donations",
+          "start": 11,
+          "end": 12
+        },
+        "arguments": [
+          {
+            "role": "Recipient",
+            "entity-type": "ORG:Non-Governmental",
+            "text": "it",
+            "start": 4,
+            "end": 5
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=2/gov=-1",
+      "nsubj/dep=0/gov=2",
+      "aux/dep=1/gov=2",
+      "mark/dep=3/gov=6",
+      "nsubj/dep=4/gov=6",
+      "aux/dep=5/gov=6",
+      "ccomp/dep=6/gov=2",
+      "det/dep=7/gov=8",
+      "dobj/dep=8/gov=6",
+      "dep/dep=9/gov=8",
+      "case/dep=10/gov=11",
+      "nmod:on/dep=11/gov=8",
+      "acl/dep=12/gov=11",
+      "case/dep=13/gov=15",
+      "compound/dep=14/gov=15",
+      "nmod:for/dep=15/gov=12",
+      "cc/dep=16/gov=6",
+      "mark/dep=17/gov=24",
+      "nsubj/dep=18/gov=24",
+      "dep/dep=19/gov=18",
+      "case/dep=20/gov=22",
+      "det/dep=21/gov=22",
+      "nmod:of/dep=22/gov=18",
+      "aux/dep=23/gov=24",
+      "ccomp/dep=24/gov=2",
+      "conj:and/dep=24/gov=6",
+      "advmod/dep=25/gov=24",
+      "case/dep=26/gov=27",
+      "nmod:toward/dep=27/gov=24",
+      "punct/dep=28/gov=2"
+    ],
+    "words": [
+      "It",
+      "has",
+      "announced",
+      "that",
+      "it",
+      "will",
+      "forego",
+      "the",
+      "9",
+      "#",
+      "on",
+      "donations",
+      "earmarked",
+      "for",
+      "tsunami",
+      "relief",
+      "and",
+      "that",
+      "100",
+      "#",
+      "of",
+      "these",
+      "funds",
+      "will",
+      "go",
+      "directly",
+      "toward",
+      "aid",
+      "."
+    ],
+    "pos-tags": [
+      "PRP",
+      "VBZ",
+      "VBN",
+      "IN",
+      "PRP",
+      "MD",
+      "VB",
+      "DT",
+      "CD",
+      "#",
+      "IN",
+      "NNS",
+      "VBN",
+      "IN",
+      "NN",
+      "NN",
+      "CC",
+      "IN",
+      "CD",
+      "#",
+      "IN",
+      "DT",
+      "NNS",
+      "MD",
+      "VB",
+      "RB",
+      "IN",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (PRP It))\r\n    (VP (VBZ has)\r\n      (VP (VBN announced)\r\n        (SBAR\r\n          (SBAR (IN that)\r\n            (S\r\n              (NP (PRP it))\r\n              (VP (MD will)\r\n                (VP (VB forego)\r\n                  (NP\r\n                    (NP (DT the) (CD 9) (# #))\r\n                    (PP (IN on)\r\n                      (NP\r\n                        (NP (NNS donations))\r\n                        (VP (VBN earmarked)\r\n                          (PP (IN for)\r\n                            (NP (NN tsunami) (NN relief)))))))))))\r\n          (CC and)\r\n          (SBAR (IN that)\r\n            (S\r\n              (NP\r\n                (NP (CD 100) (# #))\r\n                (PP (IN of)\r\n                  (NP (DT these) (NNS funds))))\r\n              (VP (MD will)\r\n                (VP (VB go)\r\n                  (ADVP (RB directly))\r\n                  (PP (IN toward)\r\n                    (NP (NN aid))))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "9# in administrative costs would place the Red Cross among charity organizations making the the most efficient use of donated funds.",
+    "golden-entity-mentions": [
+      {
+        "text": "charity organizations making the the most efficient use of donated funds",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "organizations",
+          "start": 12,
+          "end": 13
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E25-40",
+        "start": 11,
+        "end": 22
+      },
+      {
+        "text": "the Red Cross",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Red Cross",
+          "start": 8,
+          "end": 10
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-39",
+        "start": 7,
+        "end": 10
+      },
+      {
+        "text": "9#",
+        "entity-type": "Numeric:Percent",
+        "head": {
+          "text": "9#",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V9-1",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "donated",
+          "start": 20,
+          "end": 21
+        },
+        "arguments": [
+          {
+            "role": "Recipient",
+            "entity-type": "ORG:Non-Governmental",
+            "text": "charity organizations making the the most efficient use of donated funds",
+            "start": 11,
+            "end": 22
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=6/gov=-1",
+      "nsubj/dep=0/gov=6",
+      "dep/dep=1/gov=0",
+      "case/dep=2/gov=4",
+      "amod/dep=3/gov=4",
+      "nmod:in/dep=4/gov=0",
+      "aux/dep=5/gov=6",
+      "det/dep=7/gov=9",
+      "compound/dep=8/gov=9",
+      "dobj/dep=9/gov=6",
+      "case/dep=10/gov=12",
+      "compound/dep=11/gov=12",
+      "nmod:among/dep=12/gov=6",
+      "acl/dep=13/gov=12",
+      "det/dep=14/gov=18",
+      "det/dep=15/gov=17",
+      "advmod/dep=16/gov=17",
+      "compound/dep=17/gov=18",
+      "dobj/dep=18/gov=13",
+      "case/dep=19/gov=21",
+      "amod/dep=20/gov=21",
+      "nmod:of/dep=21/gov=18",
+      "punct/dep=22/gov=6"
+    ],
+    "words": [
+      "9",
+      "#",
+      "in",
+      "administrative",
+      "costs",
+      "would",
+      "place",
+      "the",
+      "Red",
+      "Cross",
+      "among",
+      "charity",
+      "organizations",
+      "making",
+      "the",
+      "the",
+      "most",
+      "efficient",
+      "use",
+      "of",
+      "donated",
+      "funds",
+      "."
+    ],
+    "pos-tags": [
+      "CD",
+      "#",
+      "IN",
+      "JJ",
+      "NNS",
+      "MD",
+      "VB",
+      "DT",
+      "NNP",
+      "NNP",
+      "IN",
+      "NN",
+      "NNS",
+      "VBG",
+      "DT",
+      "DT",
+      "RBS",
+      "JJ",
+      "NN",
+      "IN",
+      "VBN",
+      "NNS",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP\r\n      (NP (CD 9) (# #))\r\n      (PP (IN in)\r\n        (NP (JJ administrative) (NNS costs))))\r\n    (VP (MD would)\r\n      (VP (VB place)\r\n        (NP (DT the) (NNP Red) (NNP Cross))\r\n        (PP (IN among)\r\n          (NP\r\n            (NP (NN charity) (NNS organizations))\r\n            (VP (VBG making)\r\n              (NP\r\n                (NP (DT the)\r\n                  (NP (DT the)\r\n                    (ADJP (RBS most) (JJ efficient)))\r\n                  (NN use))\r\n                (PP (IN of)\r\n                  (NP (VBN donated) (NNS funds)))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "The figure for most charities is 10-16#.",
+    "golden-entity-mentions": [
+      {
+        "text": "most charities",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "charities",
+          "start": 4,
+          "end": 5
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E26-41",
+        "start": 3,
+        "end": 5
+      },
+      {
+        "text": "10-16#",
+        "entity-type": "Numeric:Percent",
+        "head": {
+          "text": "10-16#",
+          "start": 6,
+          "end": 7
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V10-1",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=6/gov=-1",
+      "det/dep=0/gov=1",
+      "nsubj/dep=1/gov=6",
+      "case/dep=2/gov=4",
+      "amod/dep=3/gov=4",
+      "nmod:for/dep=4/gov=1",
+      "cop/dep=5/gov=6",
+      "dep/dep=7/gov=6",
+      "punct/dep=8/gov=6"
+    ],
+    "words": [
+      "The",
+      "figure",
+      "for",
+      "most",
+      "charities",
+      "is",
+      "10-16",
+      "#",
+      "."
+    ],
+    "pos-tags": [
+      "DT",
+      "NN",
+      "IN",
+      "JJS",
+      "NNS",
+      "VBZ",
+      "CD",
+      "#",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP\r\n      (NP (DT The) (NN figure))\r\n      (PP (IN for)\r\n        (NP (JJS most) (NNS charities))))\r\n    (VP (VBZ is)\r\n      (NP (CD 10-16) (# #)))\r\n    (. .)))"
+  },
+  {
+    "sentence": "I don't know what negative stories about the Red Cross you have heard.",
+    "golden-entity-mentions": [
+      {
+        "text": "you",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "you",
+          "start": 11,
+          "end": 12
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E24-44",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "text": "I",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "I",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E27-42",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "the Red Cross",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Red Cross",
+          "start": 9,
+          "end": 11
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-43",
+        "start": 8,
+        "end": 11
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=3/gov=-1",
+      "nsubj/dep=0/gov=3",
+      "aux/dep=1/gov=3",
+      "neg/dep=2/gov=3",
+      "dobj/dep=4/gov=3",
+      "amod/dep=5/gov=6",
+      "nmod:about/dep=6/gov=3",
+      "case/dep=7/gov=6",
+      "det/dep=8/gov=10",
+      "compound/dep=9/gov=10",
+      "dep/dep=10/gov=6",
+      "nsubj/dep=11/gov=13",
+      "aux/dep=12/gov=13",
+      "acl:relcl/dep=13/gov=10",
+      "punct/dep=14/gov=3"
+    ],
+    "words": [
+      "I",
+      "do",
+      "n't",
+      "know",
+      "what",
+      "negative",
+      "stories",
+      "about",
+      "the",
+      "Red",
+      "Cross",
+      "you",
+      "have",
+      "heard",
+      "."
+    ],
+    "pos-tags": [
+      "PRP",
+      "VBP",
+      "RB",
+      "VB",
+      "WP",
+      "JJ",
+      "NNS",
+      "IN",
+      "DT",
+      "NNP",
+      "NNP",
+      "PRP",
+      "VBP",
+      "VBN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (PRP I))\r\n    (VP (VBP do) (RB n't)\r\n      (VP (VB know)\r\n        (NP (WP what))\r\n        (PP\r\n          (NP (JJ negative) (NNS stories))\r\n          (IN about)\r\n          (NP\r\n            (NP (DT the) (NNP Red) (NNP Cross))\r\n            (SBAR\r\n              (S\r\n                (NP (PRP you))\r\n                (VP (VBP have)\r\n                  (VP (VBN heard)))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "But nothing is 100# and no organization of any kind is perfect.",
+    "golden-entity-mentions": [
+      {
+        "text": "no organization of any kind",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "organization",
+          "start": 7,
+          "end": 8
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E28-45",
+        "start": 6,
+        "end": 11
+      },
+      {
+        "text": "100#",
+        "entity-type": "Numeric:Percent",
+        "head": {
+          "text": "100#",
+          "start": 3,
+          "end": 4
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V11-1",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=3/gov=-1",
+      "cc/dep=0/gov=3",
+      "nsubj/dep=1/gov=3",
+      "cop/dep=2/gov=3",
+      "dep/dep=4/gov=3",
+      "cc/dep=5/gov=3",
+      "neg/dep=6/gov=7",
+      "nsubj/dep=7/gov=12",
+      "case/dep=8/gov=10",
+      "det/dep=9/gov=10",
+      "nmod:of/dep=10/gov=7",
+      "cop/dep=11/gov=12",
+      "conj:and/dep=12/gov=3",
+      "punct/dep=13/gov=3"
+    ],
+    "words": [
+      "But",
+      "nothing",
+      "is",
+      "100",
+      "#",
+      "and",
+      "no",
+      "organization",
+      "of",
+      "any",
+      "kind",
+      "is",
+      "perfect",
+      "."
+    ],
+    "pos-tags": [
+      "CC",
+      "NN",
+      "VBZ",
+      "CD",
+      "#",
+      "CC",
+      "DT",
+      "NN",
+      "IN",
+      "DT",
+      "NN",
+      "VBZ",
+      "JJ",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S (CC But)\r\n    (S\r\n      (NP (NN nothing))\r\n      (VP (VBZ is)\r\n        (NP (CD 100) (# #))))\r\n    (CC and)\r\n    (S\r\n      (NP\r\n        (NP (DT no) (NN organization))\r\n        (PP (IN of)\r\n          (NP (DT any) (NN kind))))\r\n      (VP (VBZ is)\r\n        (ADJP (JJ perfect))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Just because of its size, which dwarfs most other charities, I would assume that the Red Cross may be responsible for proportionately more blunders than most other charitable organizations.",
+    "golden-entity-mentions": [
+      {
+        "text": "most other charities",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "charities",
+          "start": 10,
+          "end": 11
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E26-47",
+        "start": 8,
+        "end": 11
+      },
+      {
+        "text": "most other charitable organizations",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "organizations",
+          "start": 30,
+          "end": 31
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E26-50",
+        "start": 27,
+        "end": 31
+      },
+      {
+        "text": "I",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "I",
+          "start": 12,
+          "end": 13
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E27-48",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "text": "its",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "its",
+          "start": 3,
+          "end": 4
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-46",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "text": "the Red Cross",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Red Cross",
+          "start": 17,
+          "end": 19
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-49",
+        "start": 16,
+        "end": 19
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=14/gov=-1",
+      "advmod/dep=0/gov=4",
+      "mark/dep=1/gov=4",
+      "case/dep=2/gov=4",
+      "nmod:poss/dep=3/gov=4",
+      "nsubj/dep=4/gov=7",
+      "advcl:of/dep=4/gov=14",
+      "punct/dep=5/gov=4",
+      "ref/dep=6/gov=4",
+      "acl:relcl/dep=7/gov=4",
+      "advmod/dep=8/gov=10",
+      "amod/dep=9/gov=10",
+      "dobj/dep=10/gov=7",
+      "punct/dep=11/gov=14",
+      "nsubj/dep=12/gov=14",
+      "aux/dep=13/gov=14",
+      "mark/dep=15/gov=21",
+      "det/dep=16/gov=18",
+      "compound/dep=17/gov=18",
+      "nsubj/dep=18/gov=21",
+      "aux/dep=19/gov=21",
+      "cop/dep=20/gov=21",
+      "ccomp/dep=21/gov=14",
+      "case/dep=22/gov=25",
+      "advmod/dep=23/gov=24",
+      "amod/dep=24/gov=25",
+      "nmod:for/dep=25/gov=21",
+      "case/dep=26/gov=30",
+      "amod/dep=27/gov=30",
+      "amod/dep=28/gov=30",
+      "amod/dep=29/gov=30",
+      "nmod:than/dep=30/gov=21",
+      "punct/dep=31/gov=14"
+    ],
+    "words": [
+      "Just",
+      "because",
+      "of",
+      "its",
+      "size",
+      ",",
+      "which",
+      "dwarfs",
+      "most",
+      "other",
+      "charities",
+      ",",
+      "I",
+      "would",
+      "assume",
+      "that",
+      "the",
+      "Red",
+      "Cross",
+      "may",
+      "be",
+      "responsible",
+      "for",
+      "proportionately",
+      "more",
+      "blunders",
+      "than",
+      "most",
+      "other",
+      "charitable",
+      "organizations",
+      "."
+    ],
+    "pos-tags": [
+      "RB",
+      "IN",
+      "IN",
+      "PRP$",
+      "NN",
+      ",",
+      "WDT",
+      "VBZ",
+      "RBS",
+      "JJ",
+      "NNS",
+      ",",
+      "PRP",
+      "MD",
+      "VB",
+      "IN",
+      "DT",
+      "NNP",
+      "NNP",
+      "MD",
+      "VB",
+      "JJ",
+      "IN",
+      "RB",
+      "JJR",
+      "NNS",
+      "IN",
+      "JJS",
+      "JJ",
+      "JJ",
+      "NNS",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (SBAR (RB Just) (IN because)\r\n      (FRAG\r\n        (PP (IN of)\r\n          (NP\r\n            (NP (PRP$ its) (NN size))\r\n            (, ,)\r\n            (SBAR\r\n              (WHNP (WDT which))\r\n              (S\r\n                (VP (VBZ dwarfs)\r\n                  (NP (RBS most) (JJ other) (NNS charities)))))))))\r\n    (, ,)\r\n    (NP (PRP I))\r\n    (VP (MD would)\r\n      (VP (VB assume)\r\n        (SBAR (IN that)\r\n          (S\r\n            (NP (DT the) (NNP Red) (NNP Cross))\r\n            (VP (MD may)\r\n              (VP (VB be)\r\n                (ADJP (JJ responsible)\r\n                  (PP (IN for)\r\n                    (NP\r\n                      (ADJP (RB proportionately) (JJR more))\r\n                      (NNS blunders))))\r\n                (PP (IN than)\r\n                  (NP (JJS most) (JJ other) (JJ charitable) (NNS organizations)))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "------------------------------ ------------",
+    "golden-entity-mentions": [],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=1/gov=-1",
+      "nummod/dep=0/gov=1"
+    ],
+    "words": [
+      "------------------------------",
+      "------------"
+    ],
+    "pos-tags": [
+      "CD",
+      "CD"
+    ],
+    "parse": "(ROOT\r\n  (FRAG\r\n    (NP (CD ------------------------------) (CD ------------))))"
+  },
+  {
+    "sentence": "As tragic as the earthquake and tsunami in South Asia have been, it is truly uplifting to see how so many people have opened their hearts and so generously responded to the call for help toward disaster relief efforts.",
+    "golden-entity-mentions": [
+      {
+        "text": "South Asia",
+        "entity-type": "GPE:GPE-Cluster",
+        "head": {
+          "text": "South Asia",
+          "start": 8,
+          "end": 10
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E29-51",
+        "start": 8,
+        "end": 10
+      },
+      {
+        "text": "so many people",
+        "entity-type": "PER:Group",
+        "head": {
+          "text": "people",
+          "start": 22,
+          "end": 23
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E30-52",
+        "start": 20,
+        "end": 23
+      },
+      {
+        "text": "their",
+        "entity-type": "PER:Group",
+        "head": {
+          "text": "their",
+          "start": 25,
+          "end": 26
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E30-53",
+        "start": 25,
+        "end": 26
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=16/gov=-1",
+      "mark/dep=0/gov=11",
+      "nsubj/dep=1/gov=11",
+      "case/dep=2/gov=4",
+      "det/dep=3/gov=4",
+      "nmod:as/dep=4/gov=1",
+      "cc/dep=5/gov=4",
+      "nmod:as/dep=6/gov=1",
+      "conj:and/dep=6/gov=4",
+      "case/dep=7/gov=9",
+      "compound/dep=8/gov=9",
+      "nmod:in/dep=9/gov=4",
+      "aux/dep=10/gov=11",
+      "advcl:as/dep=11/gov=16",
+      "punct/dep=12/gov=16",
+      "nsubj/dep=13/gov=16",
+      "nsubj:xsubj/dep=13/gov=18",
+      "cop/dep=14/gov=16",
+      "advmod/dep=15/gov=16",
+      "mark/dep=17/gov=18",
+      "xcomp/dep=18/gov=16",
+      "advmod/dep=19/gov=24",
+      "advmod/dep=20/gov=22",
+      "amod/dep=21/gov=22",
+      "nsubj/dep=22/gov=24",
+      "nsubj/dep=22/gov=30",
+      "aux/dep=23/gov=24",
+      "ccomp/dep=24/gov=18",
+      "nmod:poss/dep=25/gov=26",
+      "dobj/dep=26/gov=24",
+      "cc/dep=27/gov=24",
+      "dep/dep=28/gov=27",
+      "advmod/dep=29/gov=30",
+      "ccomp/dep=30/gov=18",
+      "conj:and/dep=30/gov=24",
+      "case/dep=31/gov=33",
+      "det/dep=32/gov=33",
+      "nmod:to/dep=33/gov=30",
+      "case/dep=34/gov=35",
+      "nmod:for/dep=35/gov=33",
+      "case/dep=36/gov=39",
+      "compound/dep=37/gov=39",
+      "compound/dep=38/gov=39",
+      "nmod:toward/dep=39/gov=30",
+      "punct/dep=40/gov=16"
+    ],
+    "words": [
+      "As",
+      "tragic",
+      "as",
+      "the",
+      "earthquake",
+      "and",
+      "tsunami",
+      "in",
+      "South",
+      "Asia",
+      "have",
+      "been",
+      ",",
+      "it",
+      "is",
+      "truly",
+      "uplifting",
+      "to",
+      "see",
+      "how",
+      "so",
+      "many",
+      "people",
+      "have",
+      "opened",
+      "their",
+      "hearts",
+      "and",
+      "so",
+      "generously",
+      "responded",
+      "to",
+      "the",
+      "call",
+      "for",
+      "help",
+      "toward",
+      "disaster",
+      "relief",
+      "efforts",
+      "."
+    ],
+    "pos-tags": [
+      "IN",
+      "JJ",
+      "IN",
+      "DT",
+      "NN",
+      "CC",
+      "NN",
+      "IN",
+      "NNP",
+      "NNP",
+      "VBP",
+      "VBN",
+      ",",
+      "PRP",
+      "VBZ",
+      "RB",
+      "JJ",
+      "TO",
+      "VB",
+      "WRB",
+      "RB",
+      "JJ",
+      "NNS",
+      "VBP",
+      "VBN",
+      "PRP$",
+      "NNS",
+      "CC",
+      "RB",
+      "RB",
+      "VBD",
+      "TO",
+      "DT",
+      "NN",
+      "IN",
+      "NN",
+      "IN",
+      "NN",
+      "NN",
+      "NNS",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (SBAR (IN As)\r\n      (S\r\n        (NP\r\n          (NP (JJ tragic))\r\n          (PP (IN as)\r\n            (NP\r\n              (NP (DT the) (NN earthquake)\r\n                (CC and)\r\n                (NN tsunami))\r\n              (PP (IN in)\r\n                (NP (NNP South) (NNP Asia))))))\r\n        (VP (VBP have)\r\n          (VP (VBN been)))))\r\n    (, ,)\r\n    (NP (PRP it))\r\n    (VP (VBZ is)\r\n      (ADJP (RB truly) (JJ uplifting))\r\n      (S\r\n        (VP (TO to)\r\n          (VP (VB see)\r\n            (SBAR\r\n              (WHADVP (WRB how))\r\n              (S\r\n                (NP (RB so) (JJ many) (NNS people))\r\n                (VP\r\n                  (VP (VBP have)\r\n                    (VP (VBN opened)\r\n                      (NP (PRP$ their) (NNS hearts))))\r\n                  (CC and)\r\n                  (ADVP (RB so))\r\n                  (VP\r\n                    (ADVP (RB generously))\r\n                    (VBD responded)\r\n                    (PP (TO to)\r\n                      (NP\r\n                        (NP (DT the) (NN call))\r\n                        (PP (IN for)\r\n                          (NP (NN help)))))\r\n                    (PP (IN toward)\r\n                      (NP (NN disaster) (NN relief) (NNS efforts)))))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Money from private donations has been flowing into charitable relief organizations at an unprecedented rate, in some cases by millions of dollars per hour.",
+    "golden-entity-mentions": [
+      {
+        "text": "charitable relief organizations",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "organizations",
+          "start": 10,
+          "end": 11
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E31-54",
+        "start": 8,
+        "end": 11
+      },
+      {
+        "text": "millions of dollars",
+        "entity-type": "Numeric:Money",
+        "head": {
+          "text": "millions of dollars",
+          "start": 20,
+          "end": 23
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V12-1",
+        "start": 20,
+        "end": 23
+      },
+      {
+        "text": "per hour",
+        "entity-type": "TIM:time",
+        "head": {
+          "text": "per hour",
+          "start": 23,
+          "end": 25
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-T6-1",
+        "start": 23,
+        "end": 25
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "donations",
+          "start": 3,
+          "end": 4
+        },
+        "arguments": [
+          {
+            "role": "Money",
+            "entity-type": "Numeric:Money",
+            "text": "millions of dollars",
+            "start": 20,
+            "end": 23
+          },
+          {
+            "role": "Recipient",
+            "entity-type": "ORG:Non-Governmental",
+            "text": "charitable relief organizations",
+            "start": 8,
+            "end": 11
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=6/gov=-1",
+      "nsubj/dep=0/gov=6",
+      "case/dep=1/gov=3",
+      "amod/dep=2/gov=3",
+      "nmod:from/dep=3/gov=0",
+      "aux/dep=4/gov=6",
+      "aux/dep=5/gov=6",
+      "case/dep=7/gov=10",
+      "amod/dep=8/gov=10",
+      "compound/dep=9/gov=10",
+      "nmod:into/dep=10/gov=6",
+      "case/dep=11/gov=14",
+      "det/dep=12/gov=14",
+      "amod/dep=13/gov=14",
+      "nmod:at/dep=14/gov=10",
+      "punct/dep=15/gov=10",
+      "case/dep=16/gov=18",
+      "det/dep=17/gov=18",
+      "nmod:in/dep=18/gov=10",
+      "case/dep=19/gov=20",
+      "det:qmod/dep=20/gov=22",
+      "mwe/dep=21/gov=20",
+      "nmod/dep=22/gov=6",
+      "case/dep=23/gov=24",
+      "nmod:per/dep=24/gov=22",
+      "punct/dep=25/gov=6"
+    ],
+    "words": [
+      "Money",
+      "from",
+      "private",
+      "donations",
+      "has",
+      "been",
+      "flowing",
+      "into",
+      "charitable",
+      "relief",
+      "organizations",
+      "at",
+      "an",
+      "unprecedented",
+      "rate",
+      ",",
+      "in",
+      "some",
+      "cases",
+      "by",
+      "millions",
+      "of",
+      "dollars",
+      "per",
+      "hour",
+      "."
+    ],
+    "pos-tags": [
+      "NN",
+      "IN",
+      "JJ",
+      "NNS",
+      "VBZ",
+      "VBN",
+      "VBG",
+      "IN",
+      "JJ",
+      "NN",
+      "NNS",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      ",",
+      "IN",
+      "DT",
+      "NNS",
+      "IN",
+      "NNS",
+      "IN",
+      "NNS",
+      "IN",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP\r\n      (NP (NN Money))\r\n      (PP (IN from)\r\n        (NP (JJ private) (NNS donations))))\r\n    (VP (VBZ has)\r\n      (VP (VBN been)\r\n        (VP (VBG flowing)\r\n          (PP (IN into)\r\n            (NP\r\n              (NP (JJ charitable) (NN relief) (NNS organizations))\r\n              (PP (IN at)\r\n                (NP (DT an) (JJ unprecedented) (NN rate)))\r\n              (, ,)\r\n              (PP (IN in)\r\n                (NP (DT some) (NNS cases)))))\r\n          (PP (IN by)\r\n            (NP\r\n              (NP (NNS millions))\r\n              (PP (IN of)\r\n                (NP\r\n                  (NP (NNS dollars))\r\n                  (PP (IN per)\r\n                    (NP (NN hour))))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "\"Tsunami aid\" was the fourth most frequently used term used in internet searches last week.",
+    "golden-entity-mentions": [
+      {
+        "text": "last week",
+        "entity-type": "TIM:time",
+        "head": {
+          "text": "last week",
+          "start": 15,
+          "end": 17
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-T7-1",
+        "start": 15,
+        "end": 17
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=10/gov=-1",
+      "punct/dep=0/gov=10",
+      "compound/dep=1/gov=2",
+      "nsubj/dep=2/gov=10",
+      "punct/dep=3/gov=10",
+      "cop/dep=4/gov=10",
+      "det/dep=5/gov=10",
+      "amod/dep=6/gov=10",
+      "advmod/dep=7/gov=8",
+      "advmod/dep=8/gov=9",
+      "amod/dep=9/gov=10",
+      "acl/dep=11/gov=10",
+      "case/dep=12/gov=14",
+      "compound/dep=13/gov=14",
+      "nmod:in/dep=14/gov=11",
+      "amod/dep=15/gov=16",
+      "nmod:tmod/dep=16/gov=11",
+      "punct/dep=17/gov=10"
+    ],
+    "words": [
+      "``",
+      "Tsunami",
+      "aid",
+      "''",
+      "was",
+      "the",
+      "fourth",
+      "most",
+      "frequently",
+      "used",
+      "term",
+      "used",
+      "in",
+      "internet",
+      "searches",
+      "last",
+      "week",
+      "."
+    ],
+    "pos-tags": [
+      "``",
+      "NN",
+      "NN",
+      "''",
+      "VBD",
+      "DT",
+      "JJ",
+      "RBS",
+      "RB",
+      "VBN",
+      "NN",
+      "VBN",
+      "IN",
+      "NN",
+      "NNS",
+      "JJ",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S (`` ``)\r\n    (NP (NN Tsunami) (NN aid))\r\n    ('' '')\r\n    (VP (VBD was)\r\n      (NP\r\n        (NP (DT the) (JJ fourth)\r\n          (ADJP\r\n            (ADVP (RBS most) (RB frequently))\r\n            (VBN used))\r\n          (NN term))\r\n        (VP (VBN used)\r\n          (PP (IN in)\r\n            (NP (NN internet) (NNS searches)))\r\n          (NP-TMP (JJ last) (NN week)))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Although the need for help is still continuing, some individual charities have announced that they have already received as much in donations as they can put to use for this effort.",
+    "golden-entity-mentions": [
+      {
+        "text": "some individual charities",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "charities",
+          "start": 11,
+          "end": 12
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E32-55",
+        "start": 9,
+        "end": 12
+      },
+      {
+        "text": "they",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "they",
+          "start": 15,
+          "end": 16
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E32-56",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "text": "they",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "they",
+          "start": 24,
+          "end": 25
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E32-57",
+        "start": 24,
+        "end": 25
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "donations",
+          "start": 22,
+          "end": 23
+        },
+        "arguments": [
+          {
+            "role": "Recipient",
+            "entity-type": "ORG:Non-Governmental",
+            "text": "some individual charities",
+            "start": 9,
+            "end": 12
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=13/gov=-1",
+      "mark/dep=0/gov=7",
+      "det/dep=1/gov=2",
+      "nsubj/dep=2/gov=7",
+      "case/dep=3/gov=4",
+      "nmod:for/dep=4/gov=2",
+      "aux/dep=5/gov=7",
+      "advmod/dep=6/gov=7",
+      "advcl:although/dep=7/gov=13",
+      "punct/dep=8/gov=13",
+      "det/dep=9/gov=11",
+      "amod/dep=10/gov=11",
+      "nsubj/dep=11/gov=13",
+      "aux/dep=12/gov=13",
+      "mark/dep=14/gov=18",
+      "nsubj/dep=15/gov=18",
+      "aux/dep=16/gov=18",
+      "advmod/dep=17/gov=18",
+      "ccomp/dep=18/gov=13",
+      "advmod/dep=19/gov=20",
+      "advmod/dep=20/gov=18",
+      "case/dep=21/gov=22",
+      "nmod:in/dep=22/gov=18",
+      "mark/dep=23/gov=26",
+      "nsubj/dep=24/gov=26",
+      "nsubj:xsubj/dep=24/gov=28",
+      "aux/dep=25/gov=26",
+      "advcl:as/dep=26/gov=18",
+      "mark/dep=27/gov=28",
+      "xcomp/dep=28/gov=26",
+      "case/dep=29/gov=31",
+      "det/dep=30/gov=31",
+      "nmod:for/dep=31/gov=28",
+      "punct/dep=32/gov=13"
+    ],
+    "words": [
+      "Although",
+      "the",
+      "need",
+      "for",
+      "help",
+      "is",
+      "still",
+      "continuing",
+      ",",
+      "some",
+      "individual",
+      "charities",
+      "have",
+      "announced",
+      "that",
+      "they",
+      "have",
+      "already",
+      "received",
+      "as",
+      "much",
+      "in",
+      "donations",
+      "as",
+      "they",
+      "can",
+      "put",
+      "to",
+      "use",
+      "for",
+      "this",
+      "effort",
+      "."
+    ],
+    "pos-tags": [
+      "IN",
+      "DT",
+      "NN",
+      "IN",
+      "NN",
+      "VBZ",
+      "RB",
+      "VBG",
+      ",",
+      "DT",
+      "JJ",
+      "NNS",
+      "VBP",
+      "VBN",
+      "IN",
+      "PRP",
+      "VBP",
+      "RB",
+      "VBN",
+      "RB",
+      "RB",
+      "IN",
+      "NNS",
+      "IN",
+      "PRP",
+      "MD",
+      "VB",
+      "TO",
+      "VB",
+      "IN",
+      "DT",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (SBAR (IN Although)\r\n      (S\r\n        (NP\r\n          (NP (DT the) (NN need))\r\n          (PP (IN for)\r\n            (NP (NN help))))\r\n        (VP (VBZ is)\r\n          (ADVP (RB still))\r\n          (VP (VBG continuing)))))\r\n    (, ,)\r\n    (NP (DT some) (JJ individual) (NNS charities))\r\n    (VP (VBP have)\r\n      (VP (VBN announced)\r\n        (SBAR (IN that)\r\n          (S\r\n            (NP (PRP they))\r\n            (VP (VBP have)\r\n              (ADVP (RB already))\r\n              (VP (VBN received)\r\n                (ADVP (RB as) (RB much))\r\n                (PP (IN in)\r\n                  (NP (NNS donations)))\r\n                (SBAR (IN as)\r\n                  (S\r\n                    (NP (PRP they))\r\n                    (VP (MD can)\r\n                      (VP (VB put)\r\n                        (S\r\n                          (VP (TO to)\r\n                            (VP (VB use)\r\n                              (PP (IN for)\r\n                                (NP (DT this) (NN effort))))))))))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "The following announcement was received from MSF",
+    "golden-entity-mentions": [
+      {
+        "text": "MSF",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "MSF",
+          "start": 6,
+          "end": 7
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-58",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=4/gov=-1",
+      "det/dep=0/gov=2",
+      "amod/dep=1/gov=2",
+      "nsubjpass/dep=2/gov=4",
+      "auxpass/dep=3/gov=4",
+      "case/dep=5/gov=6",
+      "nmod:from/dep=6/gov=4"
+    ],
+    "words": [
+      "The",
+      "following",
+      "announcement",
+      "was",
+      "received",
+      "from",
+      "MSF"
+    ],
+    "pos-tags": [
+      "DT",
+      "VBG",
+      "NN",
+      "VBD",
+      "VBN",
+      "IN",
+      "NN"
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (DT The) (VBG following) (NN announcement))\r\n    (VP (VBD was)\r\n      (VP (VBN received)\r\n        (PP (IN from)\r\n          (NP (NN MSF)))))))"
+  },
+  {
+    "sentence": "\"Doctors Without Borders/Medecins Sans Frontieres (MSF) has received an extraordinary outpouring of support for the people of South Asia and we are extremely grateful.",
+    "golden-entity-mentions": [
+      {
+        "text": "South Asia",
+        "entity-type": "GPE:GPE-Cluster",
+        "head": {
+          "text": "South Asia",
+          "start": 20,
+          "end": 22
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E29-62",
+        "start": 20,
+        "end": 22
+      },
+      {
+        "text": "the people of South Asia",
+        "entity-type": "GPE:GPE-Cluster",
+        "head": {
+          "text": "people",
+          "start": 18,
+          "end": 19
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E29-79",
+        "start": 17,
+        "end": 22
+      },
+      {
+        "text": "Doctors Without Borders/Medecins Sans Frontieres (MSF",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Doctors Without Borders/Medecins Sans Frontieres",
+          "start": 1,
+          "end": 6
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-22",
+        "start": 1,
+        "end": 8
+      },
+      {
+        "text": "MSF",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "MSF",
+          "start": 7,
+          "end": 8
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-60",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "text": "we",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "we",
+          "start": 23,
+          "end": 24
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-63",
+        "start": 23,
+        "end": 24
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=10/gov=-1",
+      "punct/dep=0/gov=10",
+      "nmod:without/dep=1/gov=10",
+      "case/dep=2/gov=1",
+      "dep/dep=3/gov=1",
+      "compound/dep=4/gov=5",
+      "nsubj/dep=5/gov=10",
+      "punct/dep=6/gov=7",
+      "appos/dep=7/gov=5",
+      "punct/dep=8/gov=7",
+      "aux/dep=9/gov=10",
+      "det/dep=11/gov=13",
+      "amod/dep=12/gov=13",
+      "dobj/dep=13/gov=10",
+      "case/dep=14/gov=15",
+      "nmod:of/dep=15/gov=13",
+      "case/dep=16/gov=18",
+      "det/dep=17/gov=18",
+      "nmod:for/dep=18/gov=10",
+      "case/dep=19/gov=21",
+      "compound/dep=20/gov=21",
+      "nmod:of/dep=21/gov=18",
+      "cc/dep=22/gov=10",
+      "nsubj/dep=23/gov=26",
+      "cop/dep=24/gov=26",
+      "advmod/dep=25/gov=26",
+      "conj:and/dep=26/gov=10",
+      "punct/dep=27/gov=10"
+    ],
+    "words": [
+      "``",
+      "Doctors",
+      "Without",
+      "Borders/Medecins",
+      "Sans",
+      "Frontieres",
+      "-LRB-",
+      "MSF",
+      "-RRB-",
+      "has",
+      "received",
+      "an",
+      "extraordinary",
+      "outpouring",
+      "of",
+      "support",
+      "for",
+      "the",
+      "people",
+      "of",
+      "South",
+      "Asia",
+      "and",
+      "we",
+      "are",
+      "extremely",
+      "grateful",
+      "."
+    ],
+    "pos-tags": [
+      "``",
+      "NNS",
+      "IN",
+      "NNS",
+      "NNP",
+      "NNP",
+      "-LRB-",
+      "NNP",
+      "-RRB-",
+      "VBZ",
+      "VBN",
+      "DT",
+      "JJ",
+      "NN",
+      "IN",
+      "NN",
+      "IN",
+      "DT",
+      "NNS",
+      "IN",
+      "NNP",
+      "NNP",
+      "CC",
+      "PRP",
+      "VBP",
+      "RB",
+      "JJ",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S (`` ``)\r\n    (S\r\n      (PP\r\n        (NP (NNS Doctors))\r\n        (IN Without)\r\n        (NP (NNS Borders/Medecins)))\r\n      (NP\r\n        (NP (NNP Sans) (NNP Frontieres))\r\n        (PRN (-LRB- -LRB-)\r\n          (NP (NNP MSF))\r\n          (-RRB- -RRB-)))\r\n      (VP (VBZ has)\r\n        (VP (VBN received)\r\n          (NP\r\n            (NP (DT an) (JJ extraordinary) (NN outpouring))\r\n            (PP (IN of)\r\n              (NP (NN support))))\r\n          (PP (IN for)\r\n            (NP\r\n              (NP (DT the) (NNS people))\r\n              (PP (IN of)\r\n                (NP (NNP South) (NNP Asia))))))))\r\n    (CC and)\r\n    (S\r\n      (NP (PRP we))\r\n      (VP (VBP are)\r\n        (ADJP (RB extremely) (JJ grateful))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "As you know, it is very important to MSF that we use your contribution as you intend it to be used.",
+    "golden-entity-mentions": [
+      {
+        "text": "MSF",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "MSF",
+          "start": 9,
+          "end": 10
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-65",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "text": "we",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "we",
+          "start": 11,
+          "end": 12
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-66",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "text": "you",
+        "entity-type": "PER:Indeterminate",
+        "head": {
+          "text": "you",
+          "start": 1,
+          "end": 2
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E35-64",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "text": "your",
+        "entity-type": "PER:Indeterminate",
+        "head": {
+          "text": "your",
+          "start": 13,
+          "end": 14
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E35-67",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "text": "you",
+        "entity-type": "PER:Indeterminate",
+        "head": {
+          "text": "you",
+          "start": 16,
+          "end": 17
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E35-68",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=7/gov=-1",
+      "mark/dep=0/gov=2",
+      "nsubj/dep=1/gov=2",
+      "advcl:as/dep=2/gov=7",
+      "punct/dep=3/gov=7",
+      "nsubj/dep=4/gov=7",
+      "cop/dep=5/gov=7",
+      "advmod/dep=6/gov=7",
+      "case/dep=8/gov=9",
+      "nmod:to/dep=9/gov=7",
+      "mark/dep=10/gov=12",
+      "nsubj/dep=11/gov=12",
+      "ccomp/dep=12/gov=7",
+      "nmod:poss/dep=13/gov=14",
+      "dobj/dep=14/gov=12",
+      "mark/dep=15/gov=17",
+      "nsubj/dep=16/gov=17",
+      "advcl:as/dep=17/gov=12",
+      "dobj/dep=18/gov=17",
+      "nsubjpass:xsubj/dep=18/gov=21",
+      "mark/dep=19/gov=21",
+      "auxpass/dep=20/gov=21",
+      "xcomp/dep=21/gov=17",
+      "punct/dep=22/gov=7"
+    ],
+    "words": [
+      "As",
+      "you",
+      "know",
+      ",",
+      "it",
+      "is",
+      "very",
+      "important",
+      "to",
+      "MSF",
+      "that",
+      "we",
+      "use",
+      "your",
+      "contribution",
+      "as",
+      "you",
+      "intend",
+      "it",
+      "to",
+      "be",
+      "used",
+      "."
+    ],
+    "pos-tags": [
+      "IN",
+      "PRP",
+      "VBP",
+      ",",
+      "PRP",
+      "VBZ",
+      "RB",
+      "JJ",
+      "TO",
+      "NNP",
+      "IN",
+      "PRP",
+      "VBP",
+      "PRP$",
+      "NN",
+      "IN",
+      "PRP",
+      "VBP",
+      "PRP",
+      "TO",
+      "VB",
+      "VBN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (SBAR (IN As)\r\n      (S\r\n        (NP (PRP you))\r\n        (VP (VBP know))))\r\n    (, ,)\r\n    (NP (PRP it))\r\n    (VP (VBZ is)\r\n      (ADJP (RB very) (JJ important)\r\n        (PP (TO to)\r\n          (NP (NNP MSF))))\r\n      (SBAR (IN that)\r\n        (S\r\n          (NP (PRP we))\r\n          (VP (VBP use)\r\n            (NP (PRP$ your) (NN contribution))\r\n            (SBAR (IN as)\r\n              (S\r\n                (NP (PRP you))\r\n                (VP (VBP intend)\r\n                  (S\r\n                    (NP (PRP it))\r\n                    (VP (TO to)\r\n                      (VP (VB be)\r\n                        (VP (VBN used))))))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "This is why we want to let you know that at this time, MSF estimates that we have received sufficient funds for our currently foreseen emergency response in South Asia.\"",
+    "golden-entity-mentions": [
+      {
+        "text": "South Asia",
+        "entity-type": "GPE:GPE-Cluster",
+        "head": {
+          "text": "South Asia",
+          "start": 29,
+          "end": 31
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E29-74",
+        "start": 29,
+        "end": 31
+      },
+      {
+        "text": "we",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "we",
+          "start": 3,
+          "end": 4
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-69",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "text": "MSF",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "MSF",
+          "start": 14,
+          "end": 15
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-71",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "text": "we",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "we",
+          "start": 17,
+          "end": 18
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-72",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "text": "our",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "our",
+          "start": 23,
+          "end": 24
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-73",
+        "start": 23,
+        "end": 24
+      },
+      {
+        "text": "you",
+        "entity-type": "PER:Indeterminate",
+        "head": {
+          "text": "you",
+          "start": 7,
+          "end": 8
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E35-70",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "text": "currently",
+        "entity-type": "TIM:time",
+        "head": {
+          "text": "currently",
+          "start": 24,
+          "end": 25
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-T9-1",
+        "start": 24,
+        "end": 25
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "received",
+          "start": 19,
+          "end": 20
+        },
+        "arguments": [
+          {
+            "role": "Place",
+            "entity-type": "GPE:GPE-Cluster",
+            "text": "South Asia",
+            "start": 29,
+            "end": 31
+          },
+          {
+            "role": "Recipient",
+            "entity-type": "ORG:Non-Governmental",
+            "text": "we",
+            "start": 17,
+            "end": 18
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=15/gov=-1",
+      "nsubj/dep=0/gov=1",
+      "ccomp/dep=1/gov=15",
+      "advmod/dep=2/gov=4",
+      "nsubj/dep=3/gov=4",
+      "nsubj:xsubj/dep=3/gov=6",
+      "advcl/dep=4/gov=1",
+      "mark/dep=5/gov=6",
+      "xcomp/dep=6/gov=4",
+      "nsubj/dep=7/gov=8",
+      "ccomp/dep=8/gov=6",
+      "dobj/dep=9/gov=8",
+      "case/dep=10/gov=12",
+      "det/dep=11/gov=12",
+      "nmod:at/dep=12/gov=8",
+      "punct/dep=13/gov=15",
+      "nsubj/dep=14/gov=15",
+      "mark/dep=16/gov=19",
+      "nsubj/dep=17/gov=19",
+      "aux/dep=18/gov=19",
+      "ccomp/dep=19/gov=15",
+      "amod/dep=20/gov=21",
+      "dobj/dep=21/gov=19",
+      "case/dep=22/gov=27",
+      "nmod:poss/dep=23/gov=27",
+      "advmod/dep=24/gov=25",
+      "amod/dep=25/gov=27",
+      "compound/dep=26/gov=27",
+      "nmod:for/dep=27/gov=19",
+      "case/dep=28/gov=30",
+      "compound/dep=29/gov=30",
+      "nmod:in/dep=30/gov=27",
+      "punct/dep=31/gov=15",
+      "punct/dep=32/gov=15"
+    ],
+    "words": [
+      "This",
+      "is",
+      "why",
+      "we",
+      "want",
+      "to",
+      "let",
+      "you",
+      "know",
+      "that",
+      "at",
+      "this",
+      "time",
+      ",",
+      "MSF",
+      "estimates",
+      "that",
+      "we",
+      "have",
+      "received",
+      "sufficient",
+      "funds",
+      "for",
+      "our",
+      "currently",
+      "foreseen",
+      "emergency",
+      "response",
+      "in",
+      "South",
+      "Asia",
+      ".",
+      "''"
+    ],
+    "pos-tags": [
+      "DT",
+      "VBZ",
+      "WRB",
+      "PRP",
+      "VBP",
+      "TO",
+      "VB",
+      "PRP",
+      "VB",
+      "DT",
+      "IN",
+      "DT",
+      "NN",
+      ",",
+      "NNP",
+      "VBZ",
+      "IN",
+      "PRP",
+      "VBP",
+      "VBN",
+      "JJ",
+      "NNS",
+      "IN",
+      "PRP$",
+      "RB",
+      "VBN",
+      "NN",
+      "NN",
+      "IN",
+      "NNP",
+      "NNP",
+      ".",
+      "''"
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (S\r\n      (NP (DT This))\r\n      (VP (VBZ is)\r\n        (SBAR\r\n          (WHADVP (WRB why))\r\n          (S\r\n            (NP (PRP we))\r\n            (VP (VBP want)\r\n              (S\r\n                (VP (TO to)\r\n                  (VP (VB let)\r\n                    (S\r\n                      (NP (PRP you))\r\n                      (VP (VB know)\r\n                        (NP (DT that))\r\n                        (PP (IN at)\r\n                          (NP (DT this) (NN time)))))))))))))\r\n    (, ,)\r\n    (NP (NNP MSF))\r\n    (VP (VBZ estimates)\r\n      (SBAR (IN that)\r\n        (S\r\n          (NP (PRP we))\r\n          (VP (VBP have)\r\n            (VP (VBN received)\r\n              (NP (JJ sufficient) (NNS funds))\r\n              (PP (IN for)\r\n                (NP\r\n                  (NP (PRP$ our)\r\n                    (ADJP (RB currently) (VBN foreseen))\r\n                    (NN emergency) (NN response))\r\n                  (PP (IN in)\r\n                    (NP (NNP South) (NNP Asia))))))))))\r\n    (. .) ('' '')))"
+  },
+  {
+    "sentence": "I've read that too - unfortunate, because I've worked with them in Rwanda and was very impressed with the professionalism of their organization.",
+    "golden-entity-mentions": [
+      {
+        "text": "them",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "them",
+          "start": 13,
+          "end": 14
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-78",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "text": "their organization",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "organization",
+          "start": 25,
+          "end": 26
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-81",
+        "start": 24,
+        "end": 26
+      },
+      {
+        "text": "their",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "their",
+          "start": 24,
+          "end": 25
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-82",
+        "start": 24,
+        "end": 25
+      },
+      {
+        "text": "I",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "I",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E37-76",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "I",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "I",
+          "start": 9,
+          "end": 10
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E37-77",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "text": "Rwanda",
+        "entity-type": "GPE:Nation",
+        "head": {
+          "text": "Rwanda",
+          "start": 15,
+          "end": 16
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E38-80",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=2/gov=-1",
+      "nsubj/dep=0/gov=2",
+      "aux/dep=1/gov=2",
+      "dep/dep=3/gov=4",
+      "xcomp/dep=4/gov=2",
+      "punct/dep=5/gov=2",
+      "dep/dep=6/gov=2",
+      "punct/dep=7/gov=6",
+      "mark/dep=8/gov=11",
+      "nsubj/dep=9/gov=11",
+      "nsubj/dep=9/gov=19",
+      "aux/dep=10/gov=11",
+      "dep/dep=11/gov=6",
+      "case/dep=12/gov=13",
+      "nmod:with/dep=13/gov=11",
+      "case/dep=14/gov=15",
+      "nmod:in/dep=15/gov=11",
+      "cc/dep=16/gov=11",
+      "cop/dep=17/gov=19",
+      "advmod/dep=18/gov=19",
+      "dep/dep=19/gov=6",
+      "conj:and/dep=19/gov=11",
+      "case/dep=20/gov=22",
+      "det/dep=21/gov=22",
+      "nmod:with/dep=22/gov=19",
+      "case/dep=23/gov=25",
+      "nmod:poss/dep=24/gov=25",
+      "nmod:of/dep=25/gov=22",
+      "punct/dep=26/gov=6"
+    ],
+    "words": [
+      "I",
+      "'ve",
+      "read",
+      "that",
+      "too",
+      "-",
+      "unfortunate",
+      ",",
+      "because",
+      "I",
+      "'ve",
+      "worked",
+      "with",
+      "them",
+      "in",
+      "Rwanda",
+      "and",
+      "was",
+      "very",
+      "impressed",
+      "with",
+      "the",
+      "professionalism",
+      "of",
+      "their",
+      "organization",
+      "."
+    ],
+    "pos-tags": [
+      "PRP",
+      "VBP",
+      "VBN",
+      "IN",
+      "RB",
+      ":",
+      "JJ",
+      ",",
+      "IN",
+      "PRP",
+      "VBP",
+      "VBN",
+      "IN",
+      "PRP",
+      "IN",
+      "NNP",
+      "CC",
+      "VBD",
+      "RB",
+      "JJ",
+      "IN",
+      "DT",
+      "NN",
+      "IN",
+      "PRP$",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (PRP I))\r\n    (VP (VBP 've)\r\n      (VP (VBN read)\r\n        (S\r\n          (ADJP (IN that) (RB too)))\r\n        (: -)\r\n        (FRAG\r\n          (ADJP (JJ unfortunate))\r\n          (, ,)\r\n          (SBAR (IN because)\r\n            (S\r\n              (NP (PRP I))\r\n              (VP\r\n                (VP (VBP 've)\r\n                  (VP (VBN worked)\r\n                    (PP (IN with)\r\n                      (NP (PRP them)))\r\n                    (PP (IN in)\r\n                      (NP (NNP Rwanda)))))\r\n                (CC and)\r\n                (VP (VBD was)\r\n                  (ADJP (RB very) (JJ impressed))\r\n                  (PP (IN with)\r\n                    (NP\r\n                      (NP (DT the) (NN professionalism))\r\n                      (PP (IN of)\r\n                        (NP (PRP$ their) (NN organization)))))))))\r\n          (. .))))))"
+  },
+  {
+    "sentence": "They also stated that there are lots of places in the world where they continue to work which needs plenty of help too - quite an important reminder because other needy areas of the world are getting less donations now.",
+    "golden-entity-mentions": [
+      {
+        "text": "They",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "They",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-83",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "they",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "they",
+          "start": 13,
+          "end": 14
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-89",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "text": "lots of places in the world where they continue to work which needs plenty of help too",
+        "entity-type": "LOC:Region-International",
+        "head": {
+          "text": "places",
+          "start": 8,
+          "end": 9
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E39-84",
+        "start": 6,
+        "end": 23
+      },
+      {
+        "text": "where",
+        "entity-type": "LOC:Region-International",
+        "head": {
+          "text": "where",
+          "start": 12,
+          "end": 13
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E39-88",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "text": "which",
+        "entity-type": "LOC:Region-International",
+        "head": {
+          "text": "which",
+          "start": 17,
+          "end": 18
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E39-90",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "text": "other needy areas of the world",
+        "entity-type": "LOC:Region-International",
+        "head": {
+          "text": "areas",
+          "start": 31,
+          "end": 32
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E39-91",
+        "start": 29,
+        "end": 35
+      },
+      {
+        "text": "the world",
+        "entity-type": "LOC:Celestial",
+        "head": {
+          "text": "world",
+          "start": 11,
+          "end": 12
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E40-86",
+        "start": 10,
+        "end": 12
+      },
+      {
+        "text": "the world",
+        "entity-type": "LOC:Celestial",
+        "head": {
+          "text": "world",
+          "start": 34,
+          "end": 35
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E40-92",
+        "start": 33,
+        "end": 35
+      },
+      {
+        "text": "now",
+        "entity-type": "TIM:time",
+        "head": {
+          "text": "now",
+          "start": 39,
+          "end": 40
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-T10-1",
+        "start": 39,
+        "end": 40
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "donations",
+          "start": 38,
+          "end": 39
+        },
+        "arguments": [
+          {
+            "role": "Place",
+            "entity-type": "LOC:Region-International",
+            "text": "lots of places in the world where they continue to work which needs plenty of help too",
+            "start": 6,
+            "end": 23
+          },
+          {
+            "role": "Recipient",
+            "entity-type": "ORG:Non-Governmental",
+            "text": "They",
+            "start": 0,
+            "end": 1
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=2/gov=-1",
+      "nsubj/dep=0/gov=2",
+      "advmod/dep=1/gov=2",
+      "mark/dep=3/gov=5",
+      "expl/dep=4/gov=5",
+      "ccomp/dep=5/gov=2",
+      "det:qmod/dep=6/gov=8",
+      "mwe/dep=7/gov=6",
+      "nsubj/dep=8/gov=5",
+      "case/dep=9/gov=11",
+      "det/dep=10/gov=11",
+      "nmod:in/dep=11/gov=8",
+      "advmod/dep=12/gov=14",
+      "nsubj/dep=13/gov=14",
+      "nsubj:xsubj/dep=13/gov=16",
+      "acl:relcl/dep=14/gov=11",
+      "mark/dep=15/gov=16",
+      "xcomp/dep=16/gov=14",
+      "nsubj/dep=17/gov=18",
+      "dep/dep=18/gov=27",
+      "det:qmod/dep=19/gov=21",
+      "mwe/dep=20/gov=19",
+      "dobj/dep=21/gov=18",
+      "advmod/dep=22/gov=18",
+      "punct/dep=23/gov=27",
+      "advmod/dep=24/gov=27",
+      "det/dep=25/gov=27",
+      "amod/dep=26/gov=27",
+      "dobj/dep=27/gov=16",
+      "mark/dep=28/gov=36",
+      "amod/dep=29/gov=31",
+      "amod/dep=30/gov=31",
+      "nsubj/dep=31/gov=36",
+      "case/dep=32/gov=34",
+      "det/dep=33/gov=34",
+      "nmod:of/dep=34/gov=31",
+      "aux/dep=35/gov=36",
+      "dep/dep=36/gov=27",
+      "amod/dep=37/gov=38",
+      "dobj/dep=38/gov=36",
+      "advmod/dep=39/gov=36",
+      "punct/dep=40/gov=2"
+    ],
+    "words": [
+      "They",
+      "also",
+      "stated",
+      "that",
+      "there",
+      "are",
+      "lots",
+      "of",
+      "places",
+      "in",
+      "the",
+      "world",
+      "where",
+      "they",
+      "continue",
+      "to",
+      "work",
+      "which",
+      "needs",
+      "plenty",
+      "of",
+      "help",
+      "too",
+      "-",
+      "quite",
+      "an",
+      "important",
+      "reminder",
+      "because",
+      "other",
+      "needy",
+      "areas",
+      "of",
+      "the",
+      "world",
+      "are",
+      "getting",
+      "less",
+      "donations",
+      "now",
+      "."
+    ],
+    "pos-tags": [
+      "PRP",
+      "RB",
+      "VBD",
+      "IN",
+      "EX",
+      "VBP",
+      "NNS",
+      "IN",
+      "NNS",
+      "IN",
+      "DT",
+      "NN",
+      "WRB",
+      "PRP",
+      "VBP",
+      "TO",
+      "VB",
+      "WDT",
+      "VBZ",
+      "NN",
+      "IN",
+      "NN",
+      "RB",
+      ":",
+      "RB",
+      "DT",
+      "JJ",
+      "NN",
+      "IN",
+      "JJ",
+      "JJ",
+      "NNS",
+      "IN",
+      "DT",
+      "NN",
+      "VBP",
+      "VBG",
+      "JJR",
+      "NNS",
+      "RB",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (PRP They))\r\n    (ADVP (RB also))\r\n    (VP (VBD stated)\r\n      (SBAR (IN that)\r\n        (S\r\n          (NP (EX there))\r\n          (VP (VBP are)\r\n            (NP\r\n              (NP (NNS lots))\r\n              (PP (IN of)\r\n                (NP\r\n                  (NP (NNS places))\r\n                  (PP (IN in)\r\n                    (NP\r\n                      (NP (DT the) (NN world))\r\n                      (SBAR\r\n                        (WHADVP (WRB where))\r\n                        (S\r\n                          (NP (PRP they))\r\n                          (VP (VBP continue)\r\n                            (S\r\n                              (VP (TO to)\r\n                                (VP (VB work)\r\n                                  (NP\r\n                                    (SBAR\r\n                                      (WHNP (WDT which))\r\n                                      (S\r\n                                        (VP (VBZ needs)\r\n                                          (NP\r\n                                            (NP (NN plenty))\r\n                                            (PP (IN of)\r\n                                              (NP (NN help))))\r\n                                          (ADVP (RB too)))))\r\n                                    (: -)\r\n                                    (NP\r\n                                      (NP (RB quite) (DT an) (JJ important) (NN reminder))\r\n                                      (SBAR (IN because)\r\n                                        (S\r\n                                          (NP\r\n                                            (NP (JJ other) (JJ needy) (NNS areas))\r\n                                            (PP (IN of)\r\n                                              (NP (DT the) (NN world))))\r\n                                          (VP (VBP are)\r\n                                            (VP (VBG getting)\r\n                                              (NP (JJR less) (NNS donations))\r\n                                              (ADVP (RB now)))))))))))))))))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "So they didn't discourage donations to them per se, just not for this specific area.",
+    "golden-entity-mentions": [
+      {
+        "text": "this specific area",
+        "entity-type": "GPE:GPE-Cluster",
+        "head": {
+          "text": "area",
+          "start": 16,
+          "end": 17
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E29-95",
+        "start": 14,
+        "end": 17
+      },
+      {
+        "text": "they",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "they",
+          "start": 1,
+          "end": 2
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-93",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "text": "them",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "them",
+          "start": 7,
+          "end": 8
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-94",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "donations",
+          "start": 5,
+          "end": 6
+        },
+        "arguments": [
+          {
+            "role": "Beneficiary",
+            "entity-type": "GPE:GPE-Cluster",
+            "text": "this specific area",
+            "start": 14,
+            "end": 17
+          },
+          {
+            "role": "Recipient",
+            "entity-type": "ORG:Non-Governmental",
+            "text": "them",
+            "start": 7,
+            "end": 8
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=4/gov=-1",
+      "dep/dep=0/gov=4",
+      "nsubj/dep=1/gov=4",
+      "aux/dep=2/gov=4",
+      "neg/dep=3/gov=4",
+      "dobj/dep=5/gov=4",
+      "case/dep=6/gov=7",
+      "nmod:to/dep=7/gov=5",
+      "compound/dep=8/gov=9",
+      "advmod/dep=9/gov=4",
+      "punct/dep=10/gov=4",
+      "advmod/dep=11/gov=12",
+      "advmod/dep=12/gov=4",
+      "case/dep=13/gov=16",
+      "det/dep=14/gov=16",
+      "amod/dep=15/gov=16",
+      "nmod:for/dep=16/gov=12",
+      "punct/dep=17/gov=4"
+    ],
+    "words": [
+      "So",
+      "they",
+      "did",
+      "n't",
+      "discourage",
+      "donations",
+      "to",
+      "them",
+      "per",
+      "se",
+      ",",
+      "just",
+      "not",
+      "for",
+      "this",
+      "specific",
+      "area",
+      "."
+    ],
+    "pos-tags": [
+      "IN",
+      "PRP",
+      "VBD",
+      "RB",
+      "VB",
+      "NNS",
+      "TO",
+      "PRP",
+      "FW",
+      "FW",
+      ",",
+      "RB",
+      "RB",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S (IN So)\r\n    (NP (PRP they))\r\n    (VP (VBD did) (RB n't)\r\n      (VP (VB discourage)\r\n        (NP\r\n          (NP (NNS donations))\r\n          (PP (TO to)\r\n            (NP (PRP them))))\r\n        (ADVP (FW per) (FW se))\r\n        (, ,)\r\n        (ADVP\r\n          (ADVP (RB just) (RB not))\r\n          (PP (IN for)\r\n            (NP (DT this) (JJ specific) (NN area))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Of course I realize that most people will want to help where the need for it is the most immediate.",
+    "golden-entity-mentions": [
+      {
+        "text": "I",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "I",
+          "start": 2,
+          "end": 3
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E37-96",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "text": "most people",
+        "entity-type": "PER:Group",
+        "head": {
+          "text": "people",
+          "start": 6,
+          "end": 7
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E41-97",
+        "start": 5,
+        "end": 7
+      },
+      {
+        "text": "where the need for it is the most immediate",
+        "entity-type": "LOC:Region-General",
+        "head": {
+          "text": "where",
+          "start": 11,
+          "end": 12
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E42-98",
+        "start": 11,
+        "end": 20
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=3/gov=-1",
+      "case/dep=0/gov=1",
+      "nmod:of/dep=1/gov=3",
+      "nsubj/dep=2/gov=3",
+      "mark/dep=4/gov=8",
+      "amod/dep=5/gov=6",
+      "nsubj/dep=6/gov=8",
+      "nsubj:xsubj/dep=6/gov=10",
+      "aux/dep=7/gov=8",
+      "ccomp/dep=8/gov=3",
+      "mark/dep=9/gov=10",
+      "xcomp/dep=10/gov=8",
+      "advmod/dep=11/gov=19",
+      "det/dep=12/gov=13",
+      "nsubj/dep=13/gov=19",
+      "case/dep=14/gov=15",
+      "nmod:for/dep=15/gov=13",
+      "cop/dep=16/gov=19",
+      "det/dep=17/gov=19",
+      "advmod/dep=18/gov=19",
+      "advcl/dep=19/gov=10",
+      "punct/dep=20/gov=3"
+    ],
+    "words": [
+      "Of",
+      "course",
+      "I",
+      "realize",
+      "that",
+      "most",
+      "people",
+      "will",
+      "want",
+      "to",
+      "help",
+      "where",
+      "the",
+      "need",
+      "for",
+      "it",
+      "is",
+      "the",
+      "most",
+      "immediate",
+      "."
+    ],
+    "pos-tags": [
+      "IN",
+      "NN",
+      "PRP",
+      "VBP",
+      "IN",
+      "JJS",
+      "NNS",
+      "MD",
+      "VB",
+      "TO",
+      "VB",
+      "WRB",
+      "DT",
+      "NN",
+      "IN",
+      "PRP",
+      "VBZ",
+      "DT",
+      "RBS",
+      "JJ",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (PP (IN Of)\r\n      (NP (NN course)))\r\n    (NP (PRP I))\r\n    (VP (VBP realize)\r\n      (SBAR (IN that)\r\n        (S\r\n          (NP (JJS most) (NNS people))\r\n          (VP (MD will)\r\n            (VP (VB want)\r\n              (S\r\n                (VP (TO to)\r\n                  (VP (VB help)\r\n                    (SBAR\r\n                      (WHADVP (WRB where))\r\n                      (S\r\n                        (NP\r\n                          (NP (DT the) (NN need))\r\n                          (PP (IN for)\r\n                            (NP (PRP it))))\r\n                        (VP (VBZ is)\r\n                          (NP (DT the) (RBS most) (JJ immediate)))))))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "All in all, the statement has confirmed my view that Doctors without Borders ia a very professional operatoin.",
+    "golden-entity-mentions": [
+      {
+        "text": "Doctors without Borders",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Doctors without Borders",
+          "start": 11,
+          "end": 14
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-100",
+        "start": 11,
+        "end": 14
+      },
+      {
+        "text": "a very professional operatoin",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "operatoin",
+          "start": 18,
+          "end": 19
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E33-101",
+        "start": 15,
+        "end": 19
+      },
+      {
+        "text": "my",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "my",
+          "start": 8,
+          "end": 9
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E37-99",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=7/gov=-1",
+      "nsubj/dep=0/gov=7",
+      "case/dep=1/gov=2",
+      "nmod:in/dep=2/gov=0",
+      "punct/dep=3/gov=2",
+      "det/dep=4/gov=5",
+      "appos/dep=5/gov=2",
+      "aux/dep=6/gov=7",
+      "nmod:poss/dep=8/gov=9",
+      "dobj/dep=9/gov=7",
+      "mark/dep=10/gov=14",
+      "nsubj/dep=11/gov=14",
+      "case/dep=12/gov=13",
+      "nmod:without/dep=13/gov=11",
+      "ccomp/dep=14/gov=7",
+      "det/dep=15/gov=18",
+      "advmod/dep=16/gov=18",
+      "amod/dep=17/gov=18",
+      "dobj/dep=18/gov=14",
+      "punct/dep=19/gov=7"
+    ],
+    "words": [
+      "All",
+      "in",
+      "all",
+      ",",
+      "the",
+      "statement",
+      "has",
+      "confirmed",
+      "my",
+      "view",
+      "that",
+      "Doctors",
+      "without",
+      "Borders",
+      "ia",
+      "a",
+      "very",
+      "professional",
+      "operatoin",
+      "."
+    ],
+    "pos-tags": [
+      "DT",
+      "IN",
+      "DT",
+      ",",
+      "DT",
+      "NN",
+      "VBZ",
+      "VBN",
+      "PRP$",
+      "NN",
+      "IN",
+      "NNS",
+      "IN",
+      "NNS",
+      "VBP",
+      "DT",
+      "RB",
+      "JJ",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP\r\n      (NP (DT All))\r\n      (PP (IN in)\r\n        (NP\r\n          (NP (DT all))\r\n          (, ,)\r\n          (NP (DT the) (NN statement)))))\r\n    (VP (VBZ has)\r\n      (VP (VBN confirmed)\r\n        (NP (PRP$ my) (NN view))\r\n        (SBAR (IN that)\r\n          (S\r\n            (NP\r\n              (NP (NNS Doctors))\r\n              (PP (IN without)\r\n                (NP (NNS Borders))))\r\n            (VP (VBP ia)\r\n              (NP (DT a) (RB very) (JJ professional) (NN operatoin)))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Thomas W.",
+    "golden-entity-mentions": [
+      {
+        "text": "Thomas W",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "Thomas W",
+          "start": 0,
+          "end": 2
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E37-102",
+        "start": 0,
+        "end": 2
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=1/gov=-1",
+      "compound/dep=0/gov=1"
+    ],
+    "words": [
+      "Thomas",
+      "W."
+    ],
+    "pos-tags": [
+      "NNP",
+      "NNP"
+    ],
+    "parse": "(ROOT\r\n  (NP (NNP Thomas) (NNP W.)))"
+  },
+  {
+    "sentence": "No org is perfect.",
+    "golden-entity-mentions": [
+      {
+        "text": "No org",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "org",
+          "start": 1,
+          "end": 2
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E28-103",
+        "start": 0,
+        "end": 2
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=3/gov=-1",
+      "neg/dep=0/gov=1",
+      "nsubj/dep=1/gov=3",
+      "cop/dep=2/gov=3",
+      "punct/dep=4/gov=3"
+    ],
+    "words": [
+      "No",
+      "org",
+      "is",
+      "perfect",
+      "."
+    ],
+    "pos-tags": [
+      "DT",
+      "NN",
+      "VBZ",
+      "JJ",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (DT No) (NN org))\r\n    (VP (VBZ is)\r\n      (ADJP (JJ perfect)))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Our news system thrives on finding a chinc in the armor of an organisation, a not perfect organisation.",
+    "golden-entity-mentions": [
+      {
+        "text": "Our news system",
+        "entity-type": "ORG:Media",
+        "head": {
+          "text": "system",
+          "start": 2,
+          "end": 3
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E44-104",
+        "start": 0,
+        "end": 3
+      },
+      {
+        "text": "Our",
+        "entity-type": "GPE:Nation",
+        "head": {
+          "text": "Our",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E45-105",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "an organisation",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "organisation",
+          "start": 13,
+          "end": 14
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E46-107",
+        "start": 12,
+        "end": 14
+      },
+      {
+        "text": "a not perfect organisation",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "organisation",
+          "start": 18,
+          "end": 19
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E46-108",
+        "start": 15,
+        "end": 19
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=3/gov=-1",
+      "nmod:poss/dep=0/gov=2",
+      "compound/dep=1/gov=2",
+      "nsubj/dep=2/gov=3",
+      "mark/dep=4/gov=5",
+      "advcl:on/dep=5/gov=3",
+      "det/dep=6/gov=7",
+      "dobj/dep=7/gov=5",
+      "case/dep=8/gov=10",
+      "det/dep=9/gov=10",
+      "nmod:in/dep=10/gov=5",
+      "case/dep=11/gov=13",
+      "det/dep=12/gov=13",
+      "nmod:of/dep=13/gov=10",
+      "punct/dep=14/gov=13",
+      "det/dep=15/gov=18",
+      "neg/dep=16/gov=17",
+      "amod/dep=17/gov=18",
+      "appos/dep=18/gov=13",
+      "punct/dep=19/gov=3"
+    ],
+    "words": [
+      "Our",
+      "news",
+      "system",
+      "thrives",
+      "on",
+      "finding",
+      "a",
+      "chinc",
+      "in",
+      "the",
+      "armor",
+      "of",
+      "an",
+      "organisation",
+      ",",
+      "a",
+      "not",
+      "perfect",
+      "organisation",
+      "."
+    ],
+    "pos-tags": [
+      "PRP$",
+      "NN",
+      "NN",
+      "VBZ",
+      "IN",
+      "VBG",
+      "DT",
+      "NN",
+      "IN",
+      "DT",
+      "NN",
+      "IN",
+      "DT",
+      "NN",
+      ",",
+      "DT",
+      "RB",
+      "JJ",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (PRP$ Our) (NN news) (NN system))\r\n    (VP (VBZ thrives)\r\n      (PP (IN on)\r\n        (S\r\n          (VP (VBG finding)\r\n            (NP (DT a) (NN chinc))\r\n            (PP (IN in)\r\n              (NP\r\n                (NP (DT the) (NN armor))\r\n                (PP (IN of)\r\n                  (NP\r\n                    (NP (DT an) (NN organisation))\r\n                    (, ,)\r\n                    (NP (DT a)\r\n                      (ADJP (RB not) (JJ perfect))\r\n                      (NN organisation))))))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "They need ratings and will do anything for it.",
+    "golden-entity-mentions": [
+      {
+        "text": "They",
+        "entity-type": "ORG:Media",
+        "head": {
+          "text": "They",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E44-110",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=1/gov=-1",
+      "nsubj/dep=0/gov=1",
+      "nsubj/dep=0/gov=5",
+      "dobj/dep=2/gov=1",
+      "cc/dep=3/gov=1",
+      "aux/dep=4/gov=5",
+      "conj:and/dep=5/gov=1",
+      "dobj/dep=6/gov=5",
+      "case/dep=7/gov=8",
+      "nmod:for/dep=8/gov=5",
+      "punct/dep=9/gov=1"
+    ],
+    "words": [
+      "They",
+      "need",
+      "ratings",
+      "and",
+      "will",
+      "do",
+      "anything",
+      "for",
+      "it",
+      "."
+    ],
+    "pos-tags": [
+      "PRP",
+      "VBP",
+      "NNS",
+      "CC",
+      "MD",
+      "VB",
+      "NN",
+      "IN",
+      "PRP",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (PRP They))\r\n    (VP\r\n      (VP (VBP need)\r\n        (NP (NNS ratings)))\r\n      (CC and)\r\n      (VP (MD will)\r\n        (VP (VB do)\r\n          (NP (NN anything))\r\n          (PP (IN for)\r\n            (NP (PRP it))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "IMHO, go with the Red Cross, or any other national organisation.",
+    "golden-entity-mentions": [
+      {
+        "text": "any other national organisation",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "organisation",
+          "start": 12,
+          "end": 13
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E46-13",
+        "start": 9,
+        "end": 13
+      },
+      {
+        "text": "M",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "M",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E48-112",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "text": "the Red Cross",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "Red Cross",
+          "start": 5,
+          "end": 7
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-111",
+        "start": 4,
+        "end": 7
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=2/gov=-1",
+      "nsubj/dep=0/gov=2",
+      "punct/dep=1/gov=2",
+      "case/dep=3/gov=6",
+      "det/dep=4/gov=6",
+      "compound/dep=5/gov=6",
+      "nmod:with/dep=6/gov=2",
+      "punct/dep=7/gov=6",
+      "cc/dep=8/gov=6",
+      "det/dep=9/gov=12",
+      "amod/dep=10/gov=12",
+      "amod/dep=11/gov=12",
+      "nmod:with/dep=12/gov=2",
+      "conj:or/dep=12/gov=6",
+      "punct/dep=13/gov=2"
+    ],
+    "words": [
+      "IMHO",
+      ",",
+      "go",
+      "with",
+      "the",
+      "Red",
+      "Cross",
+      ",",
+      "or",
+      "any",
+      "other",
+      "national",
+      "organisation",
+      "."
+    ],
+    "pos-tags": [
+      "NNP",
+      ",",
+      "VB",
+      "IN",
+      "DT",
+      "NNP",
+      "NNP",
+      ",",
+      "CC",
+      "DT",
+      "JJ",
+      "JJ",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP (NNP IMHO))\r\n    (, ,)\r\n    (VP (VB go)\r\n      (PP (IN with)\r\n        (NP\r\n          (NP (DT the) (NNP Red) (NNP Cross))\r\n          (, ,)\r\n          (CC or)\r\n          (NP (DT any) (JJ other) (JJ national) (NN organisation)))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Just give carefully.",
+    "golden-entity-mentions": [],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=1/gov=-1",
+      "advmod/dep=0/gov=1",
+      "advmod/dep=2/gov=1",
+      "punct/dep=3/gov=1"
+    ],
+    "words": [
+      "Just",
+      "give",
+      "carefully",
+      "."
+    ],
+    "pos-tags": [
+      "RB",
+      "VB",
+      "RB",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (ADVP (RB Just))\r\n    (VP (VB give)\r\n      (ADVP (RB carefully)))\r\n    (. .)))"
+  },
+  {
+    "sentence": "if you are going to give assistance then LOOK with suspicion at all they do it is better to keep your $$$.",
+    "golden-entity-mentions": [
+      {
+        "text": "you",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "you",
+          "start": 1,
+          "end": 2
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E24-115",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "text": "they",
+        "entity-type": "ORG:Non-Governmental",
+        "head": {
+          "text": "they",
+          "start": 13,
+          "end": 14
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E51-116",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "text": "$$$",
+        "entity-type": "Numeric:Money",
+        "head": {
+          "text": "$$$",
+          "start": 21,
+          "end": 22
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V13-1",
+        "start": 21,
+        "end": 22
+      }
+    ],
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "assistance",
+          "start": 6,
+          "end": 7
+        },
+        "arguments": [
+          {
+            "role": "Giver",
+            "entity-type": "PER:Individual",
+            "text": "you",
+            "start": 1,
+            "end": 2
+          },
+          {
+            "role": "Recipient",
+            "entity-type": "ORG:Non-Governmental",
+            "text": "they",
+            "start": 13,
+            "end": 14
+          }
+        ],
+        "event_type": "Transaction:Transfer-Money"
+      }
+    ],
+    "combined-parsing": [
+      "ROOT/dep=8/gov=-1",
+      "mark/dep=0/gov=3",
+      "nsubj/dep=1/gov=3",
+      "nsubj:xsubj/dep=1/gov=5",
+      "aux/dep=2/gov=3",
+      "csubj/dep=3/gov=8",
+      "mark/dep=4/gov=5",
+      "xcomp/dep=5/gov=3",
+      "dobj/dep=6/gov=5",
+      "advmod/dep=7/gov=5",
+      "case/dep=9/gov=10",
+      "nmod:with/dep=10/gov=8",
+      "case/dep=11/gov=12",
+      "nmod:at/dep=12/gov=8",
+      "nsubj/dep=13/gov=14",
+      "acl:relcl/dep=14/gov=12",
+      "nsubj/dep=15/gov=17",
+      "nsubj:xsubj/dep=15/gov=19",
+      "cop/dep=16/gov=17",
+      "ccomp/dep=17/gov=14",
+      "mark/dep=18/gov=19",
+      "xcomp/dep=19/gov=17",
+      "dobj/dep=20/gov=19",
+      "amod/dep=21/gov=12",
+      "dep/dep=22/gov=21",
+      "nummod/dep=23/gov=22",
+      "punct/dep=24/gov=8"
+    ],
+    "words": [
+      "if",
+      "you",
+      "are",
+      "going",
+      "to",
+      "give",
+      "assistance",
+      "then",
+      "LOOK",
+      "with",
+      "suspicion",
+      "at",
+      "all",
+      "they",
+      "do",
+      "it",
+      "is",
+      "better",
+      "to",
+      "keep",
+      "your",
+      "$",
+      "$",
+      "$",
+      "."
+    ],
+    "pos-tags": [
+      "IN",
+      "PRP",
+      "VBP",
+      "VBG",
+      "TO",
+      "VB",
+      "NN",
+      "RB",
+      "VBP",
+      "IN",
+      "NN",
+      "IN",
+      "DT",
+      "PRP",
+      "VBP",
+      "PRP",
+      "VBZ",
+      "JJR",
+      "TO",
+      "VB",
+      "PRP$",
+      "$",
+      "$",
+      "$",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (SBAR (IN if)\r\n      (S\r\n        (NP (PRP you))\r\n        (VP (VBP are)\r\n          (VP (VBG going)\r\n            (S\r\n              (VP (TO to)\r\n                (VP (VB give)\r\n                  (NP (NN assistance))\r\n                  (ADVP (RB then)))))))))\r\n    (VP (VBP LOOK)\r\n      (PP (IN with)\r\n        (NP (NN suspicion)))\r\n      (PP (IN at)\r\n        (NP\r\n          (NP\r\n            (NP (DT all))\r\n            (SBAR\r\n              (S\r\n                (NP (PRP they))\r\n                (VP (VBP do)\r\n                  (SBAR\r\n                    (S\r\n                      (NP (PRP it))\r\n                      (VP (VBZ is)\r\n                        (ADJP (JJR better))\r\n                        (S\r\n                          (VP (TO to)\r\n                            (VP (VB keep)\r\n                              (NP (PRP$ your))))))))))))\r\n          (ADJP ($ $)\r\n            (QP ($ $) ($ $))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "All you have done is to buy a difficult time.",
+    "golden-entity-mentions": [
+      {
+        "text": "you",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "you",
+          "start": 1,
+          "end": 2
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E24-117",
+        "start": 1,
+        "end": 2
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=4/gov=-1",
+      "nsubj/dep=0/gov=4",
+      "nsubj:xsubj/dep=0/gov=6",
+      "nsubj/dep=1/gov=3",
+      "aux/dep=2/gov=3",
+      "acl:relcl/dep=3/gov=0",
+      "mark/dep=5/gov=6",
+      "xcomp/dep=6/gov=4",
+      "det/dep=7/gov=9",
+      "amod/dep=8/gov=9",
+      "dobj/dep=9/gov=6",
+      "punct/dep=10/gov=4"
+    ],
+    "words": [
+      "All",
+      "you",
+      "have",
+      "done",
+      "is",
+      "to",
+      "buy",
+      "a",
+      "difficult",
+      "time",
+      "."
+    ],
+    "pos-tags": [
+      "DT",
+      "PRP",
+      "VBP",
+      "VBN",
+      "VBZ",
+      "TO",
+      "VB",
+      "DT",
+      "JJ",
+      "NN",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP\r\n      (NP (DT All))\r\n      (SBAR\r\n        (S\r\n          (NP (PRP you))\r\n          (VP (VBP have)\r\n            (VP (VBN done))))))\r\n    (VP (VBZ is)\r\n      (S\r\n        (VP (TO to)\r\n          (VP (VB buy)\r\n            (NP (DT a) (JJ difficult) (NN time))))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "-- Don Strevel, Las Vegas, NV.",
+    "golden-entity-mentions": [
+      {
+        "text": "NV",
+        "entity-type": "GPE:State-or-Province",
+        "head": {
+          "text": "NV",
+          "start": 7,
+          "end": 8
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E22-122",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "text": "Don Strevel",
+        "entity-type": "PER:Individual",
+        "head": {
+          "text": "Don Strevel",
+          "start": 1,
+          "end": 3
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E48-120",
+        "start": 1,
+        "end": 3
+      },
+      {
+        "text": "Las Vegas, NV",
+        "entity-type": "GPE:Population-Center",
+        "head": {
+          "text": "Las Vegas",
+          "start": 4,
+          "end": 6
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-E49-121",
+        "start": 4,
+        "end": 8
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=2/gov=-1",
+      "punct/dep=0/gov=2",
+      "compound/dep=1/gov=2",
+      "punct/dep=3/gov=2",
+      "compound/dep=4/gov=7",
+      "compound/dep=5/gov=7",
+      "punct/dep=6/gov=7",
+      "appos/dep=7/gov=2",
+      "punct/dep=8/gov=2"
+    ],
+    "words": [
+      "--",
+      "Don",
+      "Strevel",
+      ",",
+      "Las",
+      "Vegas",
+      ",",
+      "NV",
+      "."
+    ],
+    "pos-tags": [
+      ":",
+      "NNP",
+      "NNP",
+      ",",
+      "NNP",
+      "NNP",
+      ",",
+      "NNP",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (NP (: --)\r\n    (NP (NNP Don) (NNP Strevel))\r\n    (, ,)\r\n    (NP (NNP Las) (NNP Vegas) (, ,) (NNP NV))\r\n    (. .)))"
+  },
+  {
+    "sentence": "i...@mysecretvegas.com (autoresponder)",
+    "golden-entity-mentions": [
+      {
+        "text": "i...@mysecretvegas.com",
+        "entity-type": "Contact-Info:E-Mail",
+        "head": {
+          "text": "i...@mysecretvegas.com",
+          "start": 0,
+          "end": 1
+        },
+        "entity_id": "alt.vacation.las-vegas_20050109.0133-V14-1",
+        "start": 0,
+        "end": 1
+      }
+    ],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=0/gov=-1",
+      "punct/dep=1/gov=2",
+      "appos/dep=2/gov=0",
+      "punct/dep=3/gov=2"
+    ],
+    "words": [
+      "i...@mysecretvegas.com",
+      "-LRB-",
+      "autoresponder",
+      "-RRB-"
+    ],
+    "pos-tags": [
+      "NN",
+      "-LRB-",
+      "NN",
+      "-RRB-"
+    ],
+    "parse": "(ROOT\r\n  (NP\r\n    (NP (NN i...@mysecretvegas.com))\r\n    (PRN (-LRB- -LRB-)\r\n      (NP (NN autoresponder))\r\n      (-RRB- -RRB-))))"
+  },
+  {
+    "sentence": "--- Outgoing mail is certified Virus Free.",
+    "golden-entity-mentions": [],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=4/gov=-1",
+      "punct/dep=0/gov=4",
+      "amod/dep=1/gov=2",
+      "nsubjpass/dep=2/gov=4",
+      "auxpass/dep=3/gov=4",
+      "compound/dep=5/gov=6",
+      "dobj/dep=6/gov=4",
+      "punct/dep=7/gov=4"
+    ],
+    "words": [
+      "--",
+      "Outgoing",
+      "mail",
+      "is",
+      "certified",
+      "Virus",
+      "Free",
+      "."
+    ],
+    "pos-tags": [
+      ":",
+      "JJ",
+      "NN",
+      "VBZ",
+      "VBN",
+      "NN",
+      "NNP",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S (: --)\r\n    (NP (JJ Outgoing) (NN mail))\r\n    (VP (VBZ is)\r\n      (VP (VBN certified)\r\n        (NP (NN Virus) (NNP Free))))\r\n    (. .)))"
+  },
+  {
+    "sentence": "Checked by AVG anti-virus system ( ).",
+    "golden-entity-mentions": [],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=5/gov=-1",
+      "amod/dep=0/gov=4",
+      "case/dep=1/gov=2",
+      "nmod:by/dep=2/gov=0",
+      "amod/dep=3/gov=4",
+      "nsubj/dep=4/gov=5",
+      "punct/dep=6/gov=5",
+      "punct/dep=7/gov=5"
+    ],
+    "words": [
+      "Checked",
+      "by",
+      "AVG",
+      "anti-virus",
+      "system",
+      "-LRB-",
+      "-RRB-",
+      "."
+    ],
+    "pos-tags": [
+      "VBN",
+      "IN",
+      "NNP",
+      "JJ",
+      "NN",
+      "-LRB-",
+      "-RRB-",
+      "."
+    ],
+    "parse": "(ROOT\r\n  (S\r\n    (NP\r\n      (ADJP (VBN Checked)\r\n        (PP (IN by)\r\n          (NP (NNP AVG))))\r\n      (JJ anti-virus) (NN system))\r\n    (VP (-LRB- -LRB-))\r\n    (-RRB- -RRB-) (. .)))"
+  },
+  {
+    "sentence": "Version: 6.0.830 / Virus Database: 565 - Release Date: 1/6/2005",
+    "golden-entity-mentions": [],
+    "golden-event-mentions": [],
+    "combined-parsing": [
+      "ROOT/dep=0/gov=-1",
+      "punct/dep=1/gov=0",
+      "dep/dep=2/gov=0",
+      "punct/dep=3/gov=5",
+      "compound/dep=4/gov=5",
+      "dep/dep=5/gov=2",
+      "punct/dep=6/gov=5",
+      "dep/dep=7/gov=5",
+      "punct/dep=8/gov=5",
+      "compound/dep=9/gov=10",
+      "dep/dep=10/gov=2",
+      "punct/dep=11/gov=0",
+      "dep/dep=12/gov=0"
+    ],
+    "words": [
+      "Version",
+      ":",
+      "6.0.830",
+      "/",
+      "Virus",
+      "Database",
+      ":",
+      "565",
+      "-",
+      "Release",
+      "Date",
+      ":",
+      "1/6/2005"
+    ],
+    "pos-tags": [
+      "NN",
+      ":",
+      "CD",
+      ":",
+      "NN",
+      "NN",
+      ":",
+      "CD",
+      ":",
+      "NNP",
+      "NNP",
+      ":",
+      "CD"
+    ],
+    "parse": "(ROOT\r\n  (FRAG\r\n    (NP\r\n      (NP (NN Version))\r\n      (: :)\r\n      (NP\r\n        (NP (CD 6.0.830))\r\n        (PRN (: /)\r\n          (NP\r\n            (NP (NN Virus) (NN Database))\r\n            (: :)\r\n            (NP (CD 565)))\r\n          (: -))\r\n        (NP (NNP Release) (NNP Date)))\r\n      (: :)\r\n      (NP (CD 1/6/2005)))))"
+  }
+]

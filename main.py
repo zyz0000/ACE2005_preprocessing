@@ -122,8 +122,6 @@ def preprocessing(data_type, files):
             tokens = nlp_res['sentences'][0]['tokens']
 
             if len(nlp_res['sentences']) >= 2:
-                # TODO: issue where the sentence segmentation of NTLK and StandfordCoreNLP do not match
-                # This error occurred so little that it was temporarily ignored (< 20 sentences).
                 continue
 
             data['combined-parsing'] = []
@@ -132,7 +130,6 @@ def preprocessing(data_type, files):
 
             data['words'] = list(map(lambda x: x['word'], tokens))
             data['pos-tags'] = list(map(lambda x: x['pos'], tokens))
-            #data['lemma'] = list(map(lambda x: x['lemma'], tokens))
             data['parse'] = nlp_res['sentences'][0]['parse']
 
             sent_start_pos = item['position'][0]

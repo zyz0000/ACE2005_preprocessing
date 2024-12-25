@@ -26,7 +26,7 @@ ace_2005_td_v7/data/English/un/timex2norm/alt.vacation.las-vegas_20050109.0133.a
 ```
 ace_2005_td_v7/data/English/un/timex2norm/alt.vacation.las-vegas_20050109.0133.sgm
 ```
-In each file, file the context around `Doctors Without Borders`. Then you can see the content `Doctors Without Borders/Médecins Sans Frontières`. You should replace the French characters `é` with `e` and `è` with e to avoid the bug. Note that this modification should be applied to both two files. The attached `JMEE_train_filter_no_timevalue.json` contains the processed format of alt.vacation.las-vegas_20050109.0133.afp.xml and alt.vacation.las-vegas_20050109.0133.sgm.
+In each file, search the context around `Doctors Without Borders`. Then you can see the content `Doctors Without Borders/Médecins Sans Frontières`. You should replace the French characters `é` with `e` and `è` with e to avoid the bug. Note that this modification should be applied to both two files. The attached `JMEE_train_filter_no_timevalue.json` contains the processed format of alt.vacation.las-vegas_20050109.0133.afp.xml and alt.vacation.las-vegas_20050109.0133.sgm.
 
 ## Usage
 
